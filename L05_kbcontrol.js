@@ -7,7 +7,7 @@ function setup() {
 //     rect(width / 2 - rectsize / 2, height / 2 - rectsize / 2, rectsize, rectsize)
 // }
 function keyPressed() {
-    circle(random(0, 400), random(0, 400), 400)
+    circle(random(0, 400), random(0, 400), 30)
 }
 function keyReleased() {
     rectsize = 50
