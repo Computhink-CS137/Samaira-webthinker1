@@ -19,7 +19,7 @@ function setup() {
 }
 function keyPressed(){
     if(key === "c") {
-    
+    color(2)
     circle(100, 100, 40)
     }
     if(key === 's') {
