@@ -6,13 +6,10 @@ function setup() {
 //     background(220);
 //     rect(width / 2 - rectsize / 2, height / 2 - rectsize / 2, rectsize, rectsize)
 // }
-// function keyPressed() {
-//     rectsize = 100
-// }
-// function keyReleased() {
-//     rectsize = 50
-// }
-
-let num = 30
-
+function keyPressed() {
+    rectsize = 100
+}
+function keyReleased() {
+    rectsize = 50
+}
 
