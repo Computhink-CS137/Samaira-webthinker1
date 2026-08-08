@@ -13,7 +13,7 @@
 //     rectsize = 50
 // }
 let circleX = 400
-let circleY 
+let circleY = 400
 function draw() {
     elipse()
 }
