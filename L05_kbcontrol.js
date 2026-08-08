@@ -1,4 +1,4 @@
-let rectsize = 
-function draw() {
+let rectsize = 50
+function setup() {
     
 }
