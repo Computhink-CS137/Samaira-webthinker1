@@ -18,10 +18,10 @@ function setup() {
     background(220);
 }
 function keyPressed(){
-    if(key === "c") {
+    if(keycode === "c") {
     circle(100, 100, 40)
     }
-    if(key === 's') {
+    if(keycode === 's') {
         rect(50, 50, 100, 100)
     }
 }
