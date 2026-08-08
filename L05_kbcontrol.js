@@ -12,7 +12,7 @@
 // function keyReleased() {
 //     rectsize = 50
 // }
-cricleX
+let cricleX = 
 function draw() {
     elipse()
 }
