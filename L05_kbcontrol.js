@@ -24,7 +24,7 @@ function keyPressed(){
     if(keyCode === 67) {
     circle(100, 100, 40)
     }
-    if(keyCode === '83') {
+    if(keyCode === 83) {
         rect(50, 50, 100, 100)
     }
 }
