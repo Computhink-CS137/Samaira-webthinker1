@@ -21,10 +21,10 @@ function keyPressed(){
     console.log("key:", key);
     console.log("KeyCode:", keyCode);
 
-    if(keyCode === "48") {
+    if(keyCode === "67") {
     circle(100, 100, 40)
     }
-    if(keyCode === '32') {
+    if(keyCode === '83') {
         rect(50, 50, 100, 100)
     }
 }
