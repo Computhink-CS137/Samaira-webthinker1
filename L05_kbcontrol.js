@@ -6,6 +6,7 @@ function setup() {
 //     background(220);
 // }
 function keyPressed() {
+    
     circle(random(0, 400), random(0, 400), 30)
 }
 function keyReleased() {
