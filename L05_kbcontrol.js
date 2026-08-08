@@ -21,7 +21,7 @@ function keyPressed(){
     // console.log("key:", key);
     // console.log("keyCode:", keyCode);
 
-    if(keyCode === "67") {
+    if(keyCode === 67) {
     circle(100, 100, 40)
     }
     if(keyCode === '83') {
