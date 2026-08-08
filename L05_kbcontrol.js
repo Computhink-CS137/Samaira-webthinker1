@@ -14,5 +14,5 @@
 // }
 
 function draw() {
-    eli
+    elipse()
 }
