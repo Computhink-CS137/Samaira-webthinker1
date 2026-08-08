@@ -10,5 +10,5 @@ function keyPressed() {
     rectsize = 100
 }
 function keyReleased() {
-    
+    rectsize = 50
 }
