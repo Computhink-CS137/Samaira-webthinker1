@@ -19,6 +19,7 @@ function setup() {
 }
 function keyPressed(){
     if(key === "c") {
+    VideoColorSpace()
     circle(100, 100, 40)
     }
     if(key === 's') {
