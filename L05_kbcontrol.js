@@ -21,7 +21,7 @@ function keyPressed(){
     if(keycode === "48") {
     circle(100, 100, 40)
     }
-    if(keycode === 's') {
+    if(keycode === '32') {
         rect(50, 50, 100, 100)
     }
 }
