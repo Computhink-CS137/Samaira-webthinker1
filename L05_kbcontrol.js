@@ -13,7 +13,7 @@
 //     rectsize = 50
 // }
 let cricleX = 400
-let 
+let c
 function draw() {
     elipse()
 }
