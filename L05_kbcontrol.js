@@ -15,5 +15,5 @@
 let circleX = 400
 let circleY = 400
 function draw() {
-    elipse(random(0-400), random(0-400))
+    circle(random(0-400), random(0-400), random(10-25)) 
 }
