@@ -19,7 +19,7 @@ function setup() {
 }
 function keyPressed(){
     console.log("key:", key);
-    console.l
+    console.log("KeyCode")
 
     if(keycode === "48") {
     circle(100, 100, 40)
