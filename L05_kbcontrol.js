@@ -27,7 +27,7 @@ function keyPressed(){
     if(keyCode === '83') {
         rect(50, 50, 100, 100)
     }
-}cc
+}
 function keyReleased(){
     background(220)
 }
