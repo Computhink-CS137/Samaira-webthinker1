@@ -19,7 +19,6 @@ function setup() {
 }
 function keyPressed(){
     if(key === "c") {
-    color(255, 0, 0)
     circle(100, 100, 40)
     }
     if(key === 's') {
