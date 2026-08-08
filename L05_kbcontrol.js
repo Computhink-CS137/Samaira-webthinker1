@@ -18,8 +18,8 @@ function setup() {
     background(220);
 }
 function keyPressed(){
-    console.log("key:", key);
-    console.log("keyCode:", keyCode);
+    // console.log("key:", key);
+    // console.log("keyCode:", keyCode);
 
     if(keyCode === "67") {
     circle(100, 100, 40)
@@ -27,7 +27,7 @@ function keyPressed(){
     if(keyCode === '83') {
         rect(50, 50, 100, 100)
     }
-}
+}cc
 function keyReleased(){
     background(220)
 }
