@@ -12,7 +12,7 @@
 // function keyReleased() {
 //     rectsize = 50
 // }
-
+cricleX
 function draw() {
     elipse()
 }
