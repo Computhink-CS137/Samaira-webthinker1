@@ -39,6 +39,7 @@ function setup(){
 
 function draw(){
     background(220);
+    
 
     circle(100, 100, 50);
 }
