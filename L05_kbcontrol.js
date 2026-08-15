@@ -32,12 +32,12 @@
 //     background(220)
 // }
 
-function setup(){
+function setup() {
     createCanvas(200, 200);
     background(220);
 }
 let x = 0;
-function draw(){
+function draw() {
     background(220);
     if(keyIsDown(RIGHT_ARROW)) {
         x += 1;
