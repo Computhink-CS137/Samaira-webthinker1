@@ -66,7 +66,7 @@ function draw() {
     }
     if (direction == "up") {
         triangle(x + 25, y + 25, x, y - 25, x - 25, y + 25);
-    }else {
+    }if (direction == "down") {
         triangle(x - 25, y - 25, x, y + 25, x + 25, y - 25);
     }
  
