@@ -59,6 +59,7 @@ function draw() {
     if (keyIsDown(up_ARROW)) {
         y -= 1;
     }
+    
 }
 
 // function keyPressed(){
