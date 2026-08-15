@@ -31,12 +31,12 @@
 // function keyReleased(){
 //     background(220)
 // }
-
+let x = 0;
 function setup() {
     createCanvas(200, 200);
     background(220);
 }
-let x = 0;
+
 function draw() {
     background(220);
     if(keyIsDown(RIGHT_ARROW)) {
