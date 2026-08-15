@@ -46,7 +46,7 @@ function draw(){
     }
 
     circle(width / 2 + x, height / 2, 50);
-    noS
+    noStroke();
 }
 
 // function keyPressed(){
