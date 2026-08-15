@@ -39,7 +39,7 @@ function setup(){
 
 function draw(){
     background(220);
-    
+    if(keyIsDown)
 
     circle(100, 100, 50);
 }
