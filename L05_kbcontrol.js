@@ -34,13 +34,13 @@
 
 function steup(){
     createCanvas(200, 200);
-    background(220)
+    background(220);
 }
 
 function draw(){
     background(220);
 
-    circle(100, 100, 50)
+    circle(100, 100, 50);
 }
 
 // function keyPressed(){
@@ -63,4 +63,4 @@ function mouseMove(){
     }else{
         fill("blue")
     }
-    }
+}
