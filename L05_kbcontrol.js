@@ -63,7 +63,7 @@ function draw() {
         y += 1;
     }
     if (keyIsDown(RIGHT_ARROW)) {
-        
+        x -= 1
     }
 
 }
