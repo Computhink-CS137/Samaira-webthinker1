@@ -53,7 +53,9 @@ function setup() {
 //     }
 //     noStroke();
 // }
-fun
+function draw() {
+    
+}
 
 // function keyPressed(){
 //     if(key == "w"){
