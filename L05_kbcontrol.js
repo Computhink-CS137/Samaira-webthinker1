@@ -32,6 +32,7 @@
 //     background(220)
 // }
 let x = 100;
+let y = 100;
 
 function setup() {
     createCanvas(200, 200);
@@ -54,7 +55,7 @@ function setup() {
 //     noStroke();
 // }
 function draw() {
-    triangle("x - 2, ")
+    triangle("x - 2,")
 }
 
 // function keyPressed(){
