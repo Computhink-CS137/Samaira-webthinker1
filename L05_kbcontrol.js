@@ -40,7 +40,7 @@ function setup(){
 function draw(){
     background(220);
     if(keyIsDown(RIGHT_ARROW)){
-        x =
+        x += 1
     }
 
     circle(100, 100, 50);
