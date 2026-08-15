@@ -54,7 +54,7 @@ function setup() {
 //     noStroke();
 // }
 function draw() {
-    triangle("x - 2")
+    triangle("x - 2, ")
 }
 
 // function keyPressed(){
