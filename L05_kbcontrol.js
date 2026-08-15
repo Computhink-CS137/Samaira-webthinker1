@@ -59,6 +59,8 @@ function mouseMove(){
     if (mouseX <= 74){
         fill("red");
     }else if (mouseX <= 124){
-        
+        fill("green");
+    }else{
+        fill("blue")
     }
-}
+    }
