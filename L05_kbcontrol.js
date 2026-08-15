@@ -43,7 +43,7 @@ function draw(){
         x += 1
     }
 
-    circle(100, 100, 50);
+    circle(width, 100, 50);
 }
 
 // function keyPressed(){
