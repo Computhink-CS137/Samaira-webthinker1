@@ -51,8 +51,6 @@ function draw() {
     }if (x > width - 25) {
         x = width - 25;
     }
-
-
     noStroke();
 }
 
