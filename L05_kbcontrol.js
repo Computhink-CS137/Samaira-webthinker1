@@ -50,7 +50,7 @@ function draw() {
         x = width - 25;
     }
 
-    circle( x, height / 2, 50);
+    circle(width / 2 + x, height / 2, 50);
     noStroke();
 }
 
