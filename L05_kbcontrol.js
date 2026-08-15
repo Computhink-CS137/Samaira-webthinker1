@@ -55,7 +55,7 @@ function setup() {
 //     noStroke();
 // }
 function draw() {
-    triangle("x - 2, y - 2, x, y + 2, x + 2, y - 2");
+    triangle(x - 2, y - 2, x, y + 2, x + 2, y - 2);
 }
 
 // function keyPressed(){
