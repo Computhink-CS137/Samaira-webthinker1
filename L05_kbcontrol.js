@@ -41,6 +41,7 @@ function setup() {
 function draw() {
     background(220);
     circle(x, 100, 50);
+    fill()
     if(keyIsDown(RIGHT_ARROW)) {
         x += 1;
     }if(keyCode == LEFT_ARROW) {
