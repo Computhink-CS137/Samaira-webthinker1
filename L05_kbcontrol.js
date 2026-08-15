@@ -58,8 +58,8 @@ function draw() {
     triangle(x - 25, y - 25, x, y + 25, x + 25, y - 25);
     if (keyIsDown(up_ARROW)) {
         y -= 1;
-    }
-    
+    }if (keyIsDown(DOWN_ARROW)) {}
+
 }
 
 // function keyPressed(){
