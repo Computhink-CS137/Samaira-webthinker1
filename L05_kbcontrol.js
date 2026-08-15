@@ -43,7 +43,9 @@ function draw(){
         x += 1;
     }if(keyCode == LEFT_ARROW) {
         x -= 1;
-    }if (x < 25) 
+    }if (x < 25) {
+        x = 25;
+    }
 
     circle(width / 2 + x, height / 2, 50);
     noStroke();
