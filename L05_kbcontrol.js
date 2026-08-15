@@ -59,10 +59,10 @@ function draw() {
     background(220);
     if (keyIsDown(UP_ARROW)) {
         y -= 1;
-        direction = "up"
+        direction = "up";
     }if (keyIsDown(DOWN_ARROW)) {
         y += 1;
-        dirctection = "down"
+        direction = "down";
     }
     if (direction == "up") {
         triangle(x + 25, y + 25, x, y - 25, x - 25, y + 25);
@@ -70,7 +70,6 @@ function draw() {
         triangle(x - 25, y - 25, x, y + 25, x + 25, y - 25);
     }
  
-
 }
 
 // function keyPressed(){
