@@ -65,6 +65,4 @@ function draw(){
 //     }
 // }
 
-function keyIsDown() {
-    
-}
+
