@@ -61,9 +61,10 @@ function draw() {
         y -= 1;
     }if (keyIsDown(DOWN_ARROW)) {
         y += 1;
-    }
-    if (keyIsDown(RIGHT_ARROW)) {
+    }if (keyIsDown(RIGHT_ARROW)) {
         x -= 1
+    }if (keyIsDown(LEFT_ARROW)) {
+        
     }
 
 }
