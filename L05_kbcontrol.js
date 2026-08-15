@@ -31,7 +31,7 @@
 // function keyReleased(){
 //     background(220)
 // }
-let x = 0;
+let x = 100;
 
 function setup() {
     createCanvas(200, 200);
@@ -41,7 +41,7 @@ function setup() {
 function draw() {
     background(220);
     circle(x, 100, 50);
-    fill()
+    fill("g")
     if(keyIsDown(RIGHT_ARROW)) {
         x += 1;
     }if(keyCode == LEFT_ARROW) {
