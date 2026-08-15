@@ -57,7 +57,6 @@ function setup() {
 // }
 function draw() {
     background(220);
-    triangle(x + 25, y + 25, x, y - 25, x - 25, y + 25);
     if (keyIsDown(UP_ARROW)) {
         y -= 1;
         direction = "up"
