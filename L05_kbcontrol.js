@@ -36,7 +36,7 @@ let x = 0;
 function setup() {
     createCanvas(200, 200);
     background(220);
-    c
+    circle(x, )
 }
 
 function draw() {
