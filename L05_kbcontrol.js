@@ -45,7 +45,9 @@ function draw(){
         x -= 1;
     }if (x < 25) {
         x = 25;
-    }if (x > width)
+    }if (x > width - 25) {
+        x =
+    }
 
     circle(width / 2 + x, height / 2, 50);
     noStroke();
