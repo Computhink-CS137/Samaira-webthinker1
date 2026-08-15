@@ -56,7 +56,9 @@ function draw(){
 // }
 
 function mouseMove(){
-    if (mouseX <= 75){
-        fill("red")
+    if (mouseX <= 74){
+        fill("red");
+    }else if (mouseX <= 124){
+        
     }
 }
