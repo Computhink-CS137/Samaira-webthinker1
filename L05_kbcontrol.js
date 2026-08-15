@@ -60,13 +60,12 @@ function draw() {
     triangle(x + 25, y + 25, x, y - 25, x - 25, y + 25);
     if (keyIsDown(UP_ARROW)) {
         y -= 1;
+        direction = "up"
     }if (keyIsDown(DOWN_ARROW)) {
         y += 1;
-    }if (keyIsDown(RIGHT_ARROW)) {
-        x += 1
-    }if (keyIsDown(LEFT_ARROW)) {
-        x -= 1
-    }
+        dirctection = "down"
+    
+ 
 
 }
 
