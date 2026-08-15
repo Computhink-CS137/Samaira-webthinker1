@@ -40,7 +40,7 @@ let x = 0;
 function draw(){
     background(220);
     if(keyIsDown(RIGHT_ARROW)){
-        x += 1
+        x += 1;
     }
 
     circle(width / 2 + X, height / 2, 50);
