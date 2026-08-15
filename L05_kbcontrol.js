@@ -33,6 +33,7 @@
 // }
 let x = 100;
 let y = 100;
+let direction
 
 function setup() {
     createCanvas(200, 200);
