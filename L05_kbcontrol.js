@@ -13,21 +13,44 @@
 //     background(220);
 //}
 
-function setup() {
-    createCanvas(200, 200)
-    background(220);
-}
-function keyPressed(){
-    // console.log("key:", key);
-    // console.log("keyCode:", keyCode);
+// function setup() {
+//     createCanvas(200, 200)
+//     background(220);
+// }
+// function keyPressed(){
+//     // console.log("key:", key);
+//     // console.log("keyCode:", keyCode);
 
-    if(keyCode === 67) {
-    circle(100, 100, 40)
-    }
-    if(keyCode === 83) {
-        rect(50, 50, 100, 100)
-    }
-}
-function keyReleased(){
+//     if(keyCode === 67) {
+//     circle(100, 100, 40)
+//     }
+//     if(keyCode === 83) {
+//         rect(50, 50, 100, 100)
+//     }
+// }
+// function keyReleased(){
+//     background(220)
+// }
+
+function steup(){
+    createCanvas(200, 200);
     background(220)
+}
+
+function draw(){
+    background(220);
+
+    circle(100, 100, 50)
+}
+
+function keyPressed(){
+    if(key == "w"){
+        fill("white");
+    }else if(key == "r"){
+        fill("red");
+    }else if(key == "g"){
+        fill("green");
+    }else{
+        fill("yellow")
+    }
 }
