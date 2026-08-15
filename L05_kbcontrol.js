@@ -55,12 +55,14 @@ function draw(){
 //     }
 // }
 
-function mouseMoved(){
-    if (mouseX <= 74) {
-        fill("red");
-    } else if (mouseX >= 75 && mouseX < 125) {
-        fill("green");
-    } else {
-        fill("blue");
-    }
-}
+// function mouseMoved(){
+//     if (mouseX <= 74) {
+//         fill("red");
+//     } else if (mouseX >= 75 && mouseX < 125) {
+//         fill("green");
+//     } else {
+//         fill("blue");
+//     }
+// }
+
+
