@@ -55,7 +55,7 @@ function setup() {
 //     noStroke();
 // }
 function draw() {
-    triangle(x - 25, y - 50, x, y + 50, x + 50, y - 50);
+    triangle(x - 25, y - 25, x, y + 25, x + 50, y - 50);
 }
 
 // function keyPressed(){
