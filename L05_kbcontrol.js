@@ -56,7 +56,7 @@ function setup() {
 // }
 function draw() {
     triangle(x - 25, y - 25, x, y + 25, x + 25, y - 25);
-    if (keyIsDown(RIGHT_ARROW)) {
+    if (keyIsDown(up_ARROW)) {
         
     }
 }
