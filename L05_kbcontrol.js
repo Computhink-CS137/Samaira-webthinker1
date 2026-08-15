@@ -65,7 +65,9 @@ function draw() {
         y += 1;
         dirctection = "down"
     }
-    
+    if (direction == "up") {
+        
+    }
  
 
 }
