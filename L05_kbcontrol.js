@@ -39,9 +39,11 @@ function setup(){
 let x = 0;
 function draw(){
     background(220);
-    if(keyIsDown(RIGHT_ARROW)){
+    if(keyIsDown(RIGHT_ARROW)) {
         x += 1;
-    }if(keyCode == LEFT_ARROW)
+    }if(keyCode == LEFT_ARROW) {
+
+    }
 
     circle(width / 2 + x, height / 2, 50);
 }
