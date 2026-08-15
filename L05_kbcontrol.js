@@ -36,11 +36,11 @@ let x = 0;
 function setup() {
     createCanvas(200, 200);
     background(220);
-    circle(x, 100, 50);
 }
 
 function draw() {
     background(220);
+    circle(x, 100, 50);
     if(keyIsDown(RIGHT_ARROW)) {
         x += 1;
     }if(keyCode == LEFT_ARROW) {
