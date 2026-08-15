@@ -38,21 +38,22 @@ function setup() {
     background(220);
 }
 
-function draw() {
-    background(220);
-    circle(x, 100, 50);
-    fill("green")
-    if(keyIsDown(RIGHT_ARROW)) {
-        x += 1;
-    }if(keyCode == LEFT_ARROW) {
-        x -= 1;
-    }if (x < 25) {
-        x = 25;
-    }if (x > width - 25) {
-        x = width - 25;
-    }
-    noStroke();
-}
+// function draw() {
+//     background(220);
+//     circle(x, 100, 50);
+//     fill("green")
+//     if(keyIsDown(RIGHT_ARROW)) {
+//         x += 1;
+//     }if(keyCode == LEFT_ARROW) {
+//         x -= 1;
+//     }if (x < 25) {
+//         x = 25;
+//     }if (x > width - 25) {
+//         x = width - 25;
+//     }
+//     noStroke();
+// }
+fun
 
 // function keyPressed(){
 //     if(key == "w"){
