@@ -67,7 +67,7 @@ function setup() {
     createCanvas(600, 400);
     background(220);
     // when put 1 number, it your gray scale; 0 = balck, 255 = white
-    // if 
+    // if put background in draw you are drawing a nex bakcground 
 }
 function draw() {
     circle(ballX, ballY, ballSize)
