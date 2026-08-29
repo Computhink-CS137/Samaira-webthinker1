@@ -3,7 +3,8 @@ let picoImage;
 let popSound;
 let x = 0;
 let y = 0;
-let p
+let picowidth = 100;
+
 
 function preload() {
     picoImage = loadImage("assets/pico-a.png");
