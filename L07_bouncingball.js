@@ -12,7 +12,7 @@ function setup() {
     createCanvas(600, 400);
 }
 function draw() {
-    background(12, 50, 20);
+    background("gray");
 
     if(keyIsDown(UP_ARROW)) {
         y -= 5
