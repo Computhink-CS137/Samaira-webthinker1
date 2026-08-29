@@ -77,6 +77,7 @@ function draw() {
     ballY += ballSpeedY;
     // fps(frames per second) - the draw function draws the canvas 60 times per second, each time it draws is called a frame,
     // each time it draws a frame, the ball moves 5 pixels to the right, and 5 pixels down. so if it draws 60 frames per second, 
-    // and in each frame it moves 5 pixels. then it will move 300 pixels in 
+    // and in each frame it moves 5 pixels. then it will move 300 pixels in 60 seconds.
+    
 
 }
