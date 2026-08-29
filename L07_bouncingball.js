@@ -61,7 +61,7 @@ let ballY = 200;
 let ballSize = 50;
 let ballSpeedX;
 let ballSpeedY;
-// use speed to change 
+// use speed to change x and y coordinates.
 
 function setup() {
     createCanvas(600, 400);
