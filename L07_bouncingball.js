@@ -23,7 +23,7 @@ function draw() {
     if(keyIsDown(RIGHT_ARROW)) {
         x += 5
     }
-    if(keyIsDown(LEFT_ARROW)) {
+    if(keyIsDown("s")) {
         x -= 5
     }
 
