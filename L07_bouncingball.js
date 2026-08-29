@@ -15,13 +15,13 @@ function draw() {
     if(keyIsDown(UP_ARROW)) {
 
     }
-    if(keyIsDown(UP_ARROW)) {
+    if(keyIsDown(DOWN_ARROW)) {
         
     }
     if(keyIsDown(RIGHT_ARROW)) {
         
     }
-    if(keyIsDown(UP_ARROW)) {
+    if(keyIsDown(LEFT_ARROW)) {
         
     }
 
