@@ -54,4 +54,4 @@ function keyReleased() {
         picoWidth = 100;
     }
 }
-// differen
+// difference between 2 and 3 
