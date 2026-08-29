@@ -102,3 +102,4 @@ function draw() {
 
 }
 // html sets up structure of webpage, header, written structure. p = paragraph, small text.
+// a is for linking to w
