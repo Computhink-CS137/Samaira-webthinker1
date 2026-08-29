@@ -83,7 +83,7 @@ function draw() {
     // bonce on edge
     if (ballX <= 0 || ballX >= width){
         ballSpeedX *= -1
-        // f
+        // flip from positi
     }
      // "||" means "or"
 
