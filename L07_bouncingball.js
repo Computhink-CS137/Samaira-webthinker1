@@ -13,5 +13,5 @@ function draw() {
     background("grey");
 
     Image(picoImage, width / 2, height / 2, 100, 100)
-    // (image, x position, y position, siz)
+    // (image, x position, y position, size, size)
 }
