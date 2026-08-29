@@ -67,5 +67,7 @@ function draw() {
     background(220);
     // when put 1 number, it your gray scale; 0 = balck, 255 = white
     circle(ballX, ballY, ballSize)
+    noStroke();
+    
     // stroke = outline, fill = color
 }
