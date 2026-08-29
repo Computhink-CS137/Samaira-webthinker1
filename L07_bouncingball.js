@@ -82,7 +82,8 @@ function draw() {
 
     // bonce on edge
     if (ballX <= 0 || ballX >= width){
-        ball
+        ballSpeedX *= -1
+        // f
     }
      // "||" means "or"
 
