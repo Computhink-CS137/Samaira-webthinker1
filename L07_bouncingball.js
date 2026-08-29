@@ -56,4 +56,9 @@
 // }
 // // difference between 2 and 3 equals, 3 equals looks at data type, 2 equals looks at value.
 
-function setup()
+function setup() {
+
+}
+function draw() {
+    
+}
