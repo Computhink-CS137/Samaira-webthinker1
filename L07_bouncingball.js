@@ -21,7 +21,7 @@ function draw() {
         y += 5
     }
     if(keyIsDown(RIGHT_ARROW)) {
-        x =
+        x += 5
     }
     if(keyIsDown(LEFT_ARROW)) {
         
