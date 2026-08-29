@@ -84,7 +84,7 @@ function draw() {
     if (ballX <= 0 || ballX >= width){
         ballSpeedX *= -1
         // flip from positive to negative
-        // turing it to negative, because bou
+        // turing it to negative, because bouncing basically means fliping direction, and f
     }
      // "||" means "or"
 
