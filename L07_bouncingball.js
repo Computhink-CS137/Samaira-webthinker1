@@ -84,6 +84,7 @@ function draw() {
     if (ballX <= 0 || ballX >= width){
         ballSpeedX *= -1
         // flip from positive to negative
+        // 
     }
      // "||" means "or"
 
