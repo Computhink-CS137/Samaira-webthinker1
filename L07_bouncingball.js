@@ -75,7 +75,7 @@ function setup() {
 function draw() {
     circle(ballX, ballY, ballSize)
     noStroke();
-    fill(random(), random(), random());
+    fill(random(255), random(255), random(255));
     // stroke = outline, fill = color
     // movement
     ballX += ballSpeedX;
