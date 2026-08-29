@@ -31,8 +31,8 @@ function draw() {
     y = constrain(y, 0, height - 100)
     // (variable to constrain, 0{top left corner}[min], coordinate of max)
     // to prevent image from exitting canvas, because the hit box is at the top left corner of the 
-    // image, the image can still leave the canvas from the right, and bottem. thus you stop it 
-    // 100(image size before) s  
+    // image, the image can still leave the canvas from the right, and bottem. thus you stop the hit box 
+    // 100(image size before) so that it can't leave.   
 
     image(picoImage, x, y, 100, 100)
     // (image, x position, y position, image width size, image height size)
