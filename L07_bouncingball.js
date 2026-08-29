@@ -89,7 +89,7 @@ function draw() {
         // and from positive to nagative you are changing direction 
 
     }
-    if (ballY <= 0 + ballSize / 2 || ballY >= height - ) {
+    if (ballY <= 0 + ballSize / 2 || ballY >= height - ballSize / 2) {
         ballSpeedY *= -1
     }
    
