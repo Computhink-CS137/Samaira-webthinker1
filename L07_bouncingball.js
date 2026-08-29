@@ -27,7 +27,7 @@ function draw() {
         x -= 5
     }
 
-    
+    x = constrain(x, )
 
     image(picoImage, x, y, 100, 100)
     // (image, x position, y position, size, size)
