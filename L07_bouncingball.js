@@ -63,5 +63,5 @@ function setup() {
 }
 function draw() {
     background(220);
-    // when put 1 number, it your 
+    // when put 1 number, it your gray scale; 
 }
