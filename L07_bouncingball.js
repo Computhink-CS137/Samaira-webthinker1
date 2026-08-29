@@ -67,10 +67,9 @@ function setup() {
     createCanvas(600, 400);
     background(220);
     // when put 1 number, it your gray scale; 0 = balck, 255 = white
+    // if 
 }
 function draw() {
-    background(220);
-    // when put 1 number, it your gray scale; 0 = balck, 255 = white
     circle(ballX, ballY, ballSize)
     noStroke();
     fill("#5E8501");
