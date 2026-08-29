@@ -67,7 +67,8 @@ function setup() {
     createCanvas(600, 400);
     background(220);
     // when put 1 number, it your gray scale; 0 = balck, 255 = white
-    // if put background in draw you are drawing a nex bakcground 
+    // if put background in draw you are drawing a new bakcground in each frame thats
+    
 }
 function draw() {
     circle(ballX, ballY, ballSize)
