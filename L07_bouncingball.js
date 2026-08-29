@@ -15,10 +15,10 @@ function draw() {
     if(keyIsDown(UP_ARROW)) {
 
     }
-        if(keyIsDown(UP_ARROW)) {
+    if(keyIsDown(UP_ARROW)) {
         
     }
-        if(keyIsDown(UP_ARROW)) {
+    if(keyIsDown(UP_ARROW)) {
         
     }
         if(keyIsDown(UP_ARROW)) {
