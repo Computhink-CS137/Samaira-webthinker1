@@ -81,12 +81,15 @@ function draw() {
     // and in each frame it moves 5 pixels. then it will move 300 pixels in 60 seconds.
 
     // bonce on edge
-    if (ballX <= 0 || ballX >= width){
+    if (ballX <= 0 || ballX >= width) {
              // "||" means "or"
         ballSpeedX *= -1
         // flip from positive to negative
         // turing it to negative, because bouncing basically means fliping direction, 
         // and from positive to nagative you are changing direction 
+
+    }
+    if (ballY <= 0 || ballY >= height) {
         
     }
    
