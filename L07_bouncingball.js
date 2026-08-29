@@ -101,4 +101,4 @@ function draw() {
 
 
 }
-// html sets up structure of webpage, 
+// html sets up structure of webpage, header, written structure. 
