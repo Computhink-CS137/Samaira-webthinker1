@@ -29,7 +29,7 @@ function draw() {
 
     x = constrain(x, 0, 600) 
     y = constrain(y, 0, 400)
-    // (variable to constrain, 0{top left corner}, )
+    // (variable to constrain, 0{top left corner}[min], a)
 
     image(picoImage, x, y, 100, 100)
     // (image, x position, y position, size, size)
