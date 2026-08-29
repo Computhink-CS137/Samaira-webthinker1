@@ -28,8 +28,9 @@ function draw() {
     }
 
     x = constrain(x, 0, 500) 
-    y = constrain(y, 0, 400)
+    y = constrain(y, 0, 300)
     // (variable to constrain, 0{top left corner}[min], coordinate of max)
+    // 
 
     image(picoImage, x, y, 100, 100)
     // (image, x position, y position, image width size, image height size)
