@@ -40,5 +40,8 @@ function draw() {
 }
 
 function keyPressed() {
-    // s
+    // space bar to triger sound 
+    if (keycode === 32) {
+        
+    }
 }
