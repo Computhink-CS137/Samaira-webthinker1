@@ -75,6 +75,7 @@ function draw() {
     // stroke = outline, fill = color
     ballx += ballSpeedX;
     ballY += ballSpeedY;
-    // fps(frames per second) - the draw function draws the canvas 
+    // fps(frames per second) - the draw function draws the canvas 60 times per second, each time it draws is called a frame,
+    // 
 
 }
