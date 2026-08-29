@@ -72,6 +72,7 @@ function setup() {
     // why you don't see a trail, if want a trail, move backgornd hear, so all the new drawings won't 
     // have backgrounds that cover the old one.
 }
+// 
 function draw() {
     circle(ballX, ballY, ballSize)
     noStroke();
