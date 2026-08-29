@@ -54,4 +54,4 @@ function keyReleased() {
         picoWidth = 100;
     }
 }
-// difference between 2 and 3 
+// difference between 2 and 3 equals, 2 e
