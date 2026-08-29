@@ -56,7 +56,9 @@
 // }
 // // difference between 2 and 3 equals, 3 equals looks at data type, 2 equals looks at value.
 
-
+let ballX = 300;
+let ballY = 200;
+let ballSize = 50;
 
 function setup() {
     createCanvas(600, 400);
@@ -64,5 +66,5 @@ function setup() {
 function draw() {
     background(220);
     // when put 1 number, it your gray scale; 0 = balck, 255 = white
-    
+    circle(ballX, ba,)
 }
