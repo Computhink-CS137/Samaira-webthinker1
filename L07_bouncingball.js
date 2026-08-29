@@ -32,5 +32,5 @@ function draw() {
     // (variable to constrain, 0{top left corner}[min], coordinate of max)
 
     image(picoImage, x, y, 100, 100)
-    // (image, x position, y position, size, size)
+    // (image, x position, y position, image width size, size)
 }
