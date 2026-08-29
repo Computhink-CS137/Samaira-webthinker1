@@ -36,7 +36,7 @@ function draw() {
     // image, the image can still leave the canvas from the right, and bottem. thus you stop the hit box 
     // 100(image size before) so that it can't leave.   
 
-    image(picoImage, x, y, 100, 100)
+    image(picoImage, x, y, picoWidth, 100)
     // (image, x position, y position, image width size, image height size)
 
 }
