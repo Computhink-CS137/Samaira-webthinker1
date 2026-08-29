@@ -74,6 +74,6 @@ function draw() {
     fill("#5E8501");
     // stroke = outline, fill = color
     ballx += ballSpeedX;
-    ball
+    ballY += ballSpeedY;
 
 }
