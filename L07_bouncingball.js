@@ -61,6 +61,7 @@ let ballY = 200;
 let ballSize = 50;
 let ballSpeedX;
 let ballSpeedY;
+// use speed to change 
 
 function setup() {
     createCanvas(600, 400);
