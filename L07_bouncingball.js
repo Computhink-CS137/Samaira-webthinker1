@@ -90,7 +90,7 @@ function draw() {
 
     }
     if (ballY <= 0 || ballY >= height) {
-        
+        ballSpeedY *= -1
     }
    
 
