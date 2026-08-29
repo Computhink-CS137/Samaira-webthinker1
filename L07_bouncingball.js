@@ -27,7 +27,7 @@ function draw() {
         x -= 5
     }
 
-    x = constrain(x, 0, 600) 
+    x = constrain(x, 0, 500) 
     y = constrain(y, 0, 400)
     // (variable to constrain, 0{top left corner}[min], coordinate of max)
 
