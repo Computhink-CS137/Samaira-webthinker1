@@ -72,7 +72,7 @@ function setup() {
     // why you don't see a trail, if want a trail, move backgornd hear, so all the new drawings won't 
     // have backgrounds that cover the old one.
 }
-// 
+// function setup only happens once in whole program
 function draw() {
     circle(ballX, ballY, ballSize)
     noStroke();
@@ -97,6 +97,7 @@ function draw() {
     if (ballY <= 0 + ballSize / 2 || ballY >= height - ballSize / 2) {
         ballSpeedY *= -1
     }
+    
    
 
 
