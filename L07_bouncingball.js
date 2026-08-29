@@ -54,4 +54,4 @@ function keyReleased() {
         picoWidth = 100;
     }
 }
-// difference between 2 and 3 equals, 2 e
+// difference between 2 and 3 equals, 3 equals looks at data type, 2 e
