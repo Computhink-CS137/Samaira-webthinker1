@@ -36,5 +36,9 @@ function draw() {
 
     image(picoImage, x, y, 100, 100)
     // (image, x position, y position, image width size, image height size)
-    
+
+}
+
+function keyPressed() {
+    // s
 }
