@@ -82,13 +82,14 @@ function draw() {
 
     // bonce on edge
     if (ballX <= 0 || ballX >= width){
+             // "||" means "or"
         ballSpeedX *= -1
         // flip from positive to negative
         // turing it to negative, because bouncing basically means fliping direction, 
         // and from positive to nagative you are changing direction 
 
     }
-     // "||" means "or"
+   
 
 
 
