@@ -59,8 +59,8 @@
 let ballX = 300;
 let ballY = 200;
 let ballSize = 50;
-let ballSpeedX;
-let ballSpeedY;
+let ballSpeedX = 5;
+let ballSpeedY = 5;
 // use speed to change x and y coordinates.
 
 function setup() {
@@ -73,5 +73,5 @@ function draw() {
     noStroke();
     fill("#5E8501");
     // stroke = outline, fill = color
-    
+    ballx += ball
 }
