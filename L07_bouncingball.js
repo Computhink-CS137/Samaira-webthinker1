@@ -49,3 +49,6 @@ function keyPressed() {
         picoWidth = 50;
     }
 }
+function keyReleased() {
+    
+}
