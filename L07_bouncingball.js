@@ -13,7 +13,7 @@ function draw() {
     background("gray");
 
     if(keyIsDown(UP_ARROW)) {
-
+        
     }
     if(keyIsDown(DOWN_ARROW)) {
         
