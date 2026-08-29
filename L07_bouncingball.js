@@ -59,8 +59,8 @@
 let ballX = 300;
 let ballY = 200;
 let ballSize = 50;
-let ballSpeedX = 5;
-let ballSpeedY = 5;
+let ballSpeedX = 2;
+let ballSpeedY = 2;
 // use speed to change x and y coordinates.
 
 function setup() {
@@ -82,7 +82,7 @@ function draw() {
 
     // bonce on edge
     if (ballX <= 0 || ballX >= width){
-        
+
     }
      // "||" means "or"
 
