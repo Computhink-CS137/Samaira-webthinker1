@@ -58,7 +58,7 @@
 
 let ballX = 300;
 let ballY = 200;
-let ballSize = 50;
+let ballSize = random(20, );
 let ballSpeedX = 6;
 let ballSpeedY = 6;
 
