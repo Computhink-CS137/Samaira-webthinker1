@@ -24,7 +24,7 @@ function draw() {
         x += 5
     }
     if(keyIsDown(LEFT_ARROW)) {
-        
+        x -= 5
     }
 
     image(picoImage, x, y, 100, 100)
