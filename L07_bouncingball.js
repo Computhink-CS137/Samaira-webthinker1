@@ -75,5 +75,6 @@ function draw() {
     // stroke = outline, fill = color
     ballx += ballSpeedX;
     ballY += ballSpeedY;
+    // fps()
 
 }
