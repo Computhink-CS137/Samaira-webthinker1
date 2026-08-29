@@ -75,6 +75,6 @@ function draw() {
     // stroke = outline, fill = color
     ballx += ballSpeedX;
     ballY += ballSpeedY;
-    // fps(frames per second) - 
+    // fps(frames per second) - the draw function draws the canvas 
 
 }
