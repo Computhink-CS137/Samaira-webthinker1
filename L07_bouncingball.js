@@ -68,7 +68,8 @@ function setup() {
     background(220);
     // when put 1 number, it your gray scale; 0 = balck, 255 = white
     // if put background in draw you are drawing a new bakcground in each frame thats
-    // why you don't see a trail, if want a trail, move backgornd hear, so all the n
+    // why you don't see a trail, if want a trail, move backgornd hear, so all the new drawings won't 
+    // 
 }
 function draw() {
     circle(ballX, ballY, ballSize)
