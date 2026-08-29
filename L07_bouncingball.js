@@ -12,7 +12,7 @@ function setup() {
 function draw() {
     background("gray");
 
-    if()
+    if(keyIsDown(UP_ARROW))
 
     image(picoImage, width / 2, height / 2, 100, 100)
     // (image, x position, y position, size, size)
