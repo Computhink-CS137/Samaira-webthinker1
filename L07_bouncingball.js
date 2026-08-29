@@ -46,6 +46,6 @@ function keyPressed() {
     if (keyCode === 32) {
         // can also do (key == "a") of for space key == " "
         popSound.play();
-        picoWidth = 50
+        picoWidth = 50;
     }
 }
