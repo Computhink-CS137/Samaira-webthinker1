@@ -61,6 +61,7 @@ let ballY = 200;
 let ballSize = 50;
 let ballSpeedX = 6;
 let ballSpeedY = 6;
+
 // use speed to change x and y coordinates.
 
 function setup() {
@@ -74,7 +75,7 @@ function setup() {
 function draw() {
     circle(ballX, ballY, ballSize)
     noStroke();
-    fill("#5E8501");
+    fill();
     // stroke = outline, fill = color
     // movement
     ballX += ballSpeedX;
