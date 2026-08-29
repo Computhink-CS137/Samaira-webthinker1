@@ -82,7 +82,7 @@ function draw() {
 
     // bonce on edge
     if (ballX <= 0 || ballX >= width){
-
+        ball
     }
      // "||" means "or"
 
