@@ -97,7 +97,7 @@ function draw() {
     if (ballY <= 0 + ballSize / 2 || ballY >= height - ballSize / 2) {
         ballSpeedY *= -1
     }
-    // f
+    // function draw, happens every single frame repaets alot.
 
    
 
