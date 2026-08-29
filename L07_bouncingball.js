@@ -42,7 +42,7 @@ function draw() {
 function keyPressed() {
     // space bar to triger sound 
     if (keyCode === 32) {
-        // can also do (key == "a")
+        // can also do (key == "a") of for space key == " "
         popSound.play();
     }
 }
