@@ -87,7 +87,7 @@ function draw() {
         // flip from positive to negative
         // turing it to negative, because bouncing basically means fliping direction, 
         // and from positive to nagative you are changing direction 
-
+        
     }
    
 
