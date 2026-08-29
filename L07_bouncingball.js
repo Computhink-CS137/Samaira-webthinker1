@@ -27,6 +27,8 @@ function draw() {
         x -= 5
     }
 
+    
+
     image(picoImage, x, y, 100, 100)
     // (image, x position, y position, size, size)
 }
