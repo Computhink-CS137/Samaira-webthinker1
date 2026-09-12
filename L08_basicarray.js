@@ -1,5 +1,6 @@
 let squareX = 300;
 let squareY = 200;
+let squareSpeed
 function setup() {
     createCanvas(600, 400);
     background(220);
