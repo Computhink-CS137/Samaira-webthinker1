@@ -22,7 +22,8 @@ function setup() {
     background(220);
     // set text size
     textSize(40);
-    // 
+    // align text
+    textAlign
     // write on canvas
     text("sdjgnrVLE", width / 2, height / 2); 
     // (string, x pos, y pos)
