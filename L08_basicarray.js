@@ -8,10 +8,10 @@ function setup() {
 
 function draw() {
     // movemet; change square y & x
-    squareX += 5;
     if (squareX > width) {
         squareSpeed *-1;
     }
+    squareX += 5;
     fill(89, 125, 4,);
     rect(squareX, squareY, 100, 100)
 }
