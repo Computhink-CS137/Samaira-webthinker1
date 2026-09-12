@@ -50,10 +50,11 @@ function setup() {
     createCanvas(600, 400);
     textSize(24);
     textAlign(LEFT, TOP);
-    console.log("a")
+    console.log("a");
 }
 
 function draw() {
+    console.log("b");
     background(220);
     fill(0);
     text("My Favourite Foods:", 50, 50);
