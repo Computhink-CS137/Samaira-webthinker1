@@ -37,6 +37,7 @@ function setup() {
     background(220);
     textSize(40)
     text("my name is Samaira", 50, 50)
-    text("I am 13 years old", )
+    text("I am 13 years old", 50, 100)
+    
 
 }
