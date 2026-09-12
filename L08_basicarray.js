@@ -7,7 +7,7 @@ function setup() {
 }
 
 function draw() {
-    
+    background(220);
     // movemet; change square y & x
     if (squareX > width || squareX < 0) {
         squareSpeed *= -1;
