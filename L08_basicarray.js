@@ -23,7 +23,8 @@ function setup() {
     // set text size
     textSize(40);
     // align text
-    textAlign(CustomElementRegistry,C)
+    textAlign(CENTER, CENTER);
+    
     // write on canvas
     text("sdjgnrVLE", width / 2, height / 2); 
     // (string, x pos, y pos)
