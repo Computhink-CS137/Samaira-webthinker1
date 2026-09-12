@@ -8,7 +8,7 @@ function setup() {
 
 function draw() {
     // movemet; change square y & x
-    if (squareX > width) {
+    if (squareX > width || ) {
         squareSpeed *= -1;
     }
     squareX += squareSpeed;
