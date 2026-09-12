@@ -21,7 +21,8 @@ function setup() {
     createCanvas(600, 400);
     background(220);
     // set text size
-    textSize(40)
+    textSize(40);
+    // write on canvas
 }
 
 function draw() {
