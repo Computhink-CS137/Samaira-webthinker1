@@ -9,8 +9,8 @@ function draw() {
     // movemet; change square y & x
     squareX += 5;
     if (squareX > width) {
-        
+
     }
-    fill(20, 125, 0,);
+    fill(89, 125, 0,);
     rect(squareX, squareY, 100, 100)
 }
