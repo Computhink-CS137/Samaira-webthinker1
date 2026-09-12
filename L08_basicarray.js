@@ -45,6 +45,7 @@
 // }
 
 let favoriteFoods = [ "Pizza", "Burger", "Sushi", "Tacos", "Pasta"];
+let
 
 function setup() {
     createCanvas(600, 400);
