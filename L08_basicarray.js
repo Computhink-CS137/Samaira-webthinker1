@@ -38,6 +38,6 @@ function setup() {
     textSize(40)
     text("my name is Samaira", 50, 50)
     text("I am 13 years old", 50, 100)
-    
+    text("my fav")
 
 }
