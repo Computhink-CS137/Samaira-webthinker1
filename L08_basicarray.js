@@ -9,5 +9,5 @@ function draw() {
     // movemet; change square y & x
     squareX += 5;
     fill(30, 255, 0);
-    rect(, height/2, 100, 100)
+    rect(squareX, , 100, 100)
 }
