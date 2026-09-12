@@ -17,21 +17,21 @@
 //     rect(squareX, squareY, 100, 100)
 // }
 
-function setup() {
-    createCanvas(600, 400);
-    background(220);
-    // set text size
-    textSize(40);
-    // align text
-    textAlign(CENTER, CENTER);
-    // by default align on left, 2 cenetrs because x & y
-    // write on canvas
-    text("sdjgnrVLE", width / 2, height / 2); 
-    // (string, x pos, y pos)
-    // as long as don't clear canvas will stay there, only need to do once.
-    // hitbox for text is top left corner.
-}
-
-// function draw() {
-
+// function setup() {
+//     createCanvas(600, 400);
+//     background(220);
+//     // set text size
+//     textSize(40);
+//     // align text
+//     textAlign(CENTER, CENTER);
+//     // by default align on left, 2 cenetrs because x & y
+//     // write on canvas
+//     text("sdjgnrVLE", width / 2, height / 2); 
+//     // (string, x pos, y pos)
+//     // as long as don't clear canvas will stay there, only need to do once.
+//     // hitbox for text is top left corner.
 // }
+
+function draw() {
+
+}
