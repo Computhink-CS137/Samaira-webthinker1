@@ -25,7 +25,7 @@ function setup() {
     // write on canvas
     text("sdjgnrVLE", width / 2, heigth / 2); 
     // (string, x pos, y pos)
-    
+    // as long as don't clear canvas will stay there, only need to do once.
 }
 
 function draw() {
