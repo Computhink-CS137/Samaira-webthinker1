@@ -62,3 +62,4 @@ function setup() {
 //         text((i + 1) + "; " + favoriteFoods[i], 50, 80 + i * 30);
 //     }
 // }
+
