@@ -11,7 +11,7 @@ function draw() {
     if (squareX > width) {
         squareSpeed *-1;
     }
-    squareX += 5;
+    squareX += squareSpeed;
     fill(89, 125, 4,);
     rect(squareX, squareY, 100, 100)
 }
