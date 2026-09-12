@@ -74,7 +74,7 @@ function setup() {
 }
 // function setup only happens once in whole program
 function draw() {
-    background()
+    background(220);
     circle(ballX, ballY, ballSize)
     noStroke();
     fill(random(255), random(255), random(255));
