@@ -41,5 +41,5 @@ function setup() {
     text("my favourite activity is reading", 50, 150)
     // array = list in java, each item has an index(number), 
     // first item in list is index 0 just like python
-    
+    // can use a for loop to loop tr
 }
