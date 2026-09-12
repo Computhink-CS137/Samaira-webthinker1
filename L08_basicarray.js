@@ -28,6 +28,6 @@ function setup() {
     // as long as don't clear canvas will stay there, only need to do once.
 }
 
-function draw() {
+// function draw() {
 
-}
+// }
