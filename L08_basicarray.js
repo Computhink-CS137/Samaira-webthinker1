@@ -18,9 +18,9 @@
 // }
 
 function setup() {
-
+    createCanvas(60)
 }
 
 function draw() {
-    
+
 }
