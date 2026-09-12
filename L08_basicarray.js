@@ -8,6 +8,6 @@ function setup() {
 function draw() {
     // movemet; change square y & x
     squareX += 5;
-    fill(20, 125, 0);
+    fill(20, 125, 0, 0.4);
     rect(squareX, squareY, 100, 100)
 }
