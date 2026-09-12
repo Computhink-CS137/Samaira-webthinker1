@@ -56,6 +56,8 @@ function setup() {
 
 function draw() {
 
+    textSize(24);
+    textAlign(LEFT, TOP);
     fill(0);
     text("My Favourite Foods:", 50, 50);
     for(let i = 0; 1 < favoriteFoods.length; i++) {
