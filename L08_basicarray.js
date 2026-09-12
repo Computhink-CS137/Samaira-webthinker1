@@ -18,5 +18,9 @@
 // }
 
 function setup() {
+
+}
+
+function draw() {
     
 }
