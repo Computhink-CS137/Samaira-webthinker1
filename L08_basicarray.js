@@ -9,7 +9,7 @@ function setup() {
 function draw() {
     // movemet; change square y & x
     if (squareX > width) {
-        squareSpeed *-1;
+        squareSpeed *= -1;
     }
     squareX += squareSpeed;
     fill(89, 125, 4,);
