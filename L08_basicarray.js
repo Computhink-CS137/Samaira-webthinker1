@@ -39,5 +39,5 @@ function setup() {
     text("my name is Samaira :)", 50, 50)
     text("I am 13 years old", 50, 100)
     text("my favourite activity is reading", 50, 150)
-    // array = list in java, 
+    // array = list in java, each item has an index(number)
 }
