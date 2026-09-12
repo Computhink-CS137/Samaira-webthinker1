@@ -16,3 +16,7 @@
 //     fill(89, 125, 4,);
 //     rect(squareX, squareY, 100, 100)
 // }
+
+function setup() {
+    
+}
