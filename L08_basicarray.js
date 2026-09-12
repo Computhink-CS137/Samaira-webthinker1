@@ -44,4 +44,4 @@
 //     // can use a for loop to loop through a list
 // }
 
-let favoriteFoods = [ "pizza", "Burger", "sushi", "Tacos", "Pasta"]
+let favoriteFoods = [ "Pizza", "Burger", "Sushi", "Tacos", "Pasta"];
