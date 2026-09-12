@@ -32,6 +32,7 @@
 //     // hitbox for text is top left corner.
 // }
 
-function draw() {
+function setup() {
+    
 
 }
