@@ -11,6 +11,6 @@ function draw() {
     if (squareX > width) {
 
     }
-    fill(89, 125, 0,);
+    fill(89, 125, 4,);
     rect(squareX, squareY, 100, 100)
 }
