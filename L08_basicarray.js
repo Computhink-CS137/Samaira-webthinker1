@@ -48,6 +48,7 @@ let favoriteFoods = [ "Pizza", "Burger", "Sushi", "Tacos", "Pasta"];
 
 function setup() {
     createCanvas(600, 400);
+    
     textSize(24);
     textAlign(LEFT, TOP);
     console.log("a");
