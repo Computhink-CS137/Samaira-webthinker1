@@ -51,7 +51,7 @@ function setup() {
     background(220);
     textSize(24);
     textAlign(LEFT, TOP);
-    console.log("a");
+    
 }
 
 function draw() {
