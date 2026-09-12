@@ -45,3 +45,7 @@
 // }
 
 let favoriteFoods = [ "Pizza", "Burger", "Sushi", "Tacos", "Pasta"];
+
+function setup() {
+    
+}
