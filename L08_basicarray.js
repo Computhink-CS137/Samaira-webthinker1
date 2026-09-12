@@ -23,7 +23,8 @@ function setup() {
     // set text size
     textSize(40);
     // write on canvas
-    text("sdjgnrVLE", width/)
+    text("sdjgnrVLE", width / 2, heigth / 2); 
+    // 
 }
 
 function draw() {
