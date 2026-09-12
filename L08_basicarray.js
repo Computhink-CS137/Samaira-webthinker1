@@ -40,5 +40,6 @@ function setup() {
     text("I am 13 years old", 50, 100)
     text("my favourite activity is reading", 50, 150)
     // array = list in java, each item has an index(number), 
-    // first item in list is index 0
+    // first item in list is index 0 just like python
+    
 }
