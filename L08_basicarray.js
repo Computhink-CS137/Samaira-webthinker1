@@ -18,7 +18,8 @@
 // }
 
 function setup() {
-    createCanvas(60)
+    createCanvas(600, 400);
+    
 }
 
 function draw() {
