@@ -50,13 +50,12 @@ let yPos = 400;
 function setup() {
     createCanvas(600, 400);
     background(220);
-    textSize(24);
-    textAlign(LEFT, TOP);
+    
     
 }
 
 function draw() {
-    background(220);
+
     fill(0);
     text("My Favourite Foods:", 50, 50);
     for(let i = 0; 1 < favoriteFoods.length; i++) {
