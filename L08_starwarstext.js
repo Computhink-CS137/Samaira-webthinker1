@@ -7,7 +7,9 @@ let storyText = [
     "i'd- I hear you,",
     "",
     "I love U",
-    "and my heart.."
+    "and my heart..",
+    "it burns for you",
+    "but I can"
 ]
 function setup() {
     createCanvas(600, 400);
