@@ -14,7 +14,7 @@ function draw() {
   background(0)  
 //   clear canvas
 text("asd", width / 2, yPos )
-// string, 
+// string, Xpos, yPos
 yPos -= 1
 // minus 1 in draw function, so that it repeats each frame 
 } 
