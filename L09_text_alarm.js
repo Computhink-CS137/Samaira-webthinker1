@@ -1,3 +1,5 @@
+let hour;
+let minute;
 
 
 function setup() {
