@@ -42,4 +42,5 @@ text( storyText[i], width / 4, yPos + i * 30 )
 
 yPos -= 1
 // minus 1 in draw function, so that it repeats each frame 
+// 
 } 
