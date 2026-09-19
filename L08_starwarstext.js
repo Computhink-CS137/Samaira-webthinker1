@@ -36,7 +36,7 @@ function setup() {
     // yPos later, because want text to move up
     // height is 400, because set canvas like that 
     yPos = height;
-    bgMusic.play();
+    // bgMusic.play();
     bgMusic.loop();
 }
 
