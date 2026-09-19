@@ -46,7 +46,7 @@ for (let i = 0; i < storyText.length; i++ ) {
 // last index of loop = length minus one, because index numbers start from 0
 // thats why start at 0, stop any number before len. = an index number 
 text( storyText[i], width / 4, yPos + i * 30 )
-bgMusic.play()
+bgMusic.play();
 }
 // string, xPos, yPos
 // storytext[i], display the i sentence, i = index no.
