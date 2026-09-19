@@ -4,7 +4,7 @@ let storyText = [
     "why don't you wan't me anymore?...", 
     "", 
     "I'm begging you to change for me",
-    "the begining",
+    "i'd- ",
     "",
     "i got out of bed"
 ]
