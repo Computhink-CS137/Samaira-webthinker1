@@ -30,6 +30,8 @@ function setup() {
 function draw() {
   background(0)  
 //   clear canvas
+// loop through array
+for (let i = 0; i < storyText.length; )
 text("asd", width / 2, yPos )
 // string, xPos, yPos
 yPos -= 1
