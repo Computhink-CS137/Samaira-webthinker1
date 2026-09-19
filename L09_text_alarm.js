@@ -1,6 +1,6 @@
 let hour;
 let minute;
-
+let second;
 
 function setup() {
     createCanvas(600, 400);
