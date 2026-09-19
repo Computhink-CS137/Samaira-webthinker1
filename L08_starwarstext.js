@@ -20,7 +20,7 @@ let storyText = [
 let bgMusic; 
 
 function preload() {
-    
+    bgMusic
 }
 
 function setup() {
