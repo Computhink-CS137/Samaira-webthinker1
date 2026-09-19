@@ -1,7 +1,7 @@
 let yPos;
 let storyText = [ 
     "I'm crying on my mama's floor,",
-    "far away...", 
+    "why don't you wan't me anymore?...", 
     "", 
     "episode 1",
     "the begining",
