@@ -17,7 +17,8 @@ let storyText = [
 
 ]
 
-let 
+let bgMusic; 
+
 function setup() {
     createCanvas(600, 400);
     textAlign(LEFT, CENTER);
