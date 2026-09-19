@@ -17,7 +17,7 @@ function draw() {
     // need to be in draw, so constantly updating, can be in setup because 
     // then it will be syuck on the time you launch
     text(hr, width / 2, height / 2);
-    text(hour, width / 2, height / 2 + 50);
-    text(hour, width / 2, height / 2 + 100);
+    text(min, width / 2, height / 2 + 50);
+    text(sec, width / 2, height / 2 + 100);
 
 }
