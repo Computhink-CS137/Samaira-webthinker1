@@ -13,7 +13,7 @@ let storyText = [
     "what you neeed",
     "and now I'm wondering what it takes",
     "for you to stay off my mind",
-    ""
+    "and for out of my BLOoDStreAM"
 
 ]
 function setup() {
