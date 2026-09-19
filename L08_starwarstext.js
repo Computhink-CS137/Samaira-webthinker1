@@ -1,6 +1,6 @@
 let yPos;
 let storyText = [ 
-    
+    "a long "
 ]
 function setup() {
     createCanvas(600, 400);
