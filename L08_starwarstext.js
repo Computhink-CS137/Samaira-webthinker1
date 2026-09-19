@@ -2,6 +2,8 @@ let yPos;
 let storyText = [ 
     "a long time ago in a galaxy far,",
     "far away...", 
+    "", 
+    
 ]
 function setup() {
     createCanvas(600, 400);
