@@ -9,7 +9,8 @@ let storyText = [
     "I love U",
     "and my heart..",
     "it burns for you",
-    "but I just can't give u"
+    "but I just can't give u",
+    "what you neeed"
 ]
 function setup() {
     createCanvas(600, 400);
