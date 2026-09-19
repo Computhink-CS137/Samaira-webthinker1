@@ -21,6 +21,7 @@ let bgMusic;
 
 function preload() {
     bgMusic = loadsound("asstets/ star_wars_theme_8_bit.mp3")
+    // itch
 }
 
 function setup() {
