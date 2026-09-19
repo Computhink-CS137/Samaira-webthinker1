@@ -31,10 +31,11 @@ function draw() {
   background(0)  
 //   clear canvas
 // loop through array
-for (let i = 0; i < storyText.length; i++ )
+for (let i = 0; i < storyText.length; i++ ) {
 // last index of loop = length minus one, because index numbers start from 0
 // thats why start at 0, stop any number before len. = an index number 
 text("asd", width / 2, yPos )
+}
 // string, xPos, yPos
 yPos -= 1
 // minus 1 in draw function, so that it repeats each frame 
