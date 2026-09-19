@@ -20,7 +20,7 @@ let storyText = [
 let bgMusic; 
 
 function preload() {
-    bgMusic = loadsound("")
+    bgMusic = loadsound("asstets/ star_wars_theme")
 }
 
 function setup() {
