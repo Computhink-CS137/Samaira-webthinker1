@@ -36,6 +36,7 @@ for (let i = 0; i < storyText.length; i++ ) {
 // thats why start at 0, stop any number before len. = an index number 
 text( storyText[i], width / 2, yPos )
 }
+// 
 
 yPos -= 1
 // minus 1 in draw function, so that it repeats each frame 
