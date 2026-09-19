@@ -24,6 +24,6 @@ function draw() {
     // text(min, width / 2, height / 2 + 50);
     // text(sec, width / 2, height / 2 + 100); 
     // display entire string at once
-    text()
+    text(timeString, width / 2, hei)
 
 }
