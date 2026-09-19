@@ -3,7 +3,8 @@ let storyText = [
     "a long time ago in a galaxy far,",
     "far away...", 
     "", 
-    "episode 1"
+    "episode 1",
+    "the begining"
 ]
 function setup() {
     createCanvas(600, 400);
