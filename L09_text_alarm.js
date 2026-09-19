@@ -16,5 +16,6 @@ function draw() {
     second = second();
     // need to be in draw, so constantly updating, can be in setup because 
     // then it will be syuck on the time you launch
+    text(lour)
 
 }
