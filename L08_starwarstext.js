@@ -40,7 +40,7 @@ text( storyText[i], width / 4, yPos + i * 30 )
 // storytext[i], display the i sentence, i = index no.
 // text hit bot = left side, if aligin ceneter --> left side would be center, must do cenet center, or move more to the left.
 
-yPos -= 1
+yPos -= 0.3
 // minus 1 in draw function, so that it repeats each frame 
-// 
+// it is going up by this number, if want to decrease speed, decrease this number
 } 
