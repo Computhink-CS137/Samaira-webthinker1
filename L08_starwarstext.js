@@ -38,7 +38,7 @@ text( storyText[i], width / 2, yPos + i * 30 )
 }
 // string, xPos, yPos
 // storytext[i], display the i sentence, i = index no.
-// text hit bot = left side, 
+// text hit bot = left side, if aligin ceneter --> 
 
 yPos -= 1
 // minus 1 in draw function, so that it repeats each frame 
