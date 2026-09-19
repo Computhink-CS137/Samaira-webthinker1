@@ -13,7 +13,8 @@ let storyText = [
     "what you neeed",
     "and now I'm wondering what it takes",
     "for you to stay off my mind",
-    
+    ""
+
 ]
 function setup() {
     createCanvas(600, 400);
