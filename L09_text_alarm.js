@@ -14,6 +14,6 @@ function draw() {
     hour = hour();
     minute = minute();
     second = second();
-    // need to be in draw
+    // need to be in draw, so constantly upda
 
 }
