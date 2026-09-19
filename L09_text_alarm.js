@@ -14,6 +14,7 @@ function draw() {
     hour = hour();
     minute = minute();
     second = second();
-    // need to be in draw, so constantly upda
+    // need to be in draw, so constantly updating, can be in setup because 
+    // then it will be syuck on the time you launch
 
 }
