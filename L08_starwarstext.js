@@ -12,7 +12,8 @@ let storyText = [
     "but I just can't give u",
     "what you neeed",
     "and now I'm wondering what it takes",
-    "for you to st"
+    "for you to stay off my mind",
+    
 ]
 function setup() {
     createCanvas(600, 400);
