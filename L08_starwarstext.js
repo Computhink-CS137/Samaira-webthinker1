@@ -37,7 +37,7 @@ for (let i = 0; i < storyText.length; i++ ) {
 text( storyText[i], width / 2, yPos )
 }
 // string, xPos, yPos
-// storytext[i]
+// storytext[i], display the 
 
 yPos -= 1
 // minus 1 in draw function, so that it repeats each frame 
