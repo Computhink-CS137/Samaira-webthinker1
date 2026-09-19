@@ -8,3 +8,7 @@ function setup() {
     textSize(40);
     fill("blue");
 }
+
+function draw() {
+    
+}
