@@ -3,7 +3,7 @@ let storyText = [
     "I'm crying on my mama's floor,",
     "why don't you wan't me anymore?...", 
     "", 
-    "episode 1",
+    "I'm begging you to change for me",
     "the begining",
     "",
     "i got out of bed"
