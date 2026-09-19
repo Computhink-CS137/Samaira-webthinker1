@@ -11,6 +11,7 @@ function setup() {
 
 function draw() {
     // p5.js has a built in function for the current time thus, 
-    hour = hour()
+    hour = hour();
+    minute = minute()
 
 }
