@@ -33,7 +33,7 @@ function draw() {
 // loop through array
 for (let i = 0; i < storyText.length; )
 // last index of loop = length minus one, because index numbers start from 0
-
+// thats why stop at 0, 
 text("asd", width / 2, yPos )
 // string, xPos, yPos
 yPos -= 1
