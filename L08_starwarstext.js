@@ -37,6 +37,7 @@ function setup() {
     // height is 400, because set canvas like that 
     yPos = height;
     bgMusic.play();
+    bgMusic.loop()
 }
 
 function draw() {
