@@ -14,7 +14,8 @@ function setup() {
     // create input feild, bos=xes where you click then type/fill in stuff
     // create an are for the user to type, and ans. will be saved in variable
     inputText = createInput();
-    let inputX = this.canvas.offset + (width / 2)
+    let inputX = this.canvas.offset + (width / 2) - 80;
+    let inputY =
     inputText.position(width / 2, height / 2);
 
     // call updateText function when user types
