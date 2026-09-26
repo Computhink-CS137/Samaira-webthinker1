@@ -24,5 +24,5 @@ function updateText() {
     displayText = this.value()
     // = value that comes from input variable
     console.log(displayText);
-    // console
+    // console.log = like print in python, whenever you type something gets u
 }
