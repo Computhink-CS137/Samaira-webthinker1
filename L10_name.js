@@ -25,5 +25,5 @@ function updateText() {
     // = value that comes from input variable
     console.log(displayText);
     // console.log = like print in python, whenever you type something 
-    
+    // gets updated in console
 }
