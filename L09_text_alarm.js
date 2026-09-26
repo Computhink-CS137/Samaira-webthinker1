@@ -65,3 +65,5 @@
 // make a timer
 
 let countdown;
+
+function setup() 
