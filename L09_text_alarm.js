@@ -75,7 +75,7 @@ function setup() {
     background(0);
 } 
 
-function mousepressed() { 
+function mousePressed() { 
     if (countdownStart === false) { 
         // only when countdownStart is false can you start
         intervalId = setInterval(updateCountdown, 1000);
