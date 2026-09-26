@@ -1,4 +1,4 @@
 let inputText;
 // store user input
-let displayText ;
+let displayText = "your name ";
 // text to display on canvas
