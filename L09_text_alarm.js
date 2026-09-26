@@ -87,6 +87,6 @@ function updateCountdown() {
 
 function draw() {
     background(0);
-    text(countdown, width / 2, hei / 2);
+    text(countdown, width / 2, height / 2);
     
 }
