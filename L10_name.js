@@ -5,7 +5,7 @@ let displayText = "your name; ";
 
 function setup() {
     createCanvas(600, 400);
-    
+
 
     // create input feild, bos=xes where you click then type/fill in stuff
     // create an are for the user to type, and ans. will be saved in variable
@@ -18,6 +18,7 @@ function setup() {
 
 function draw() {
     background(0);
+    text(display)
 }
 
 function updateText() {
