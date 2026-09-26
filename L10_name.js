@@ -10,6 +10,8 @@ function setup() {
     // create an are for the user to type, and ans. will be saved in variable
     inputText = crateInput();
     inputText.position(width / 2, height / 2);
+
+    
 }
 
 function draw() {
