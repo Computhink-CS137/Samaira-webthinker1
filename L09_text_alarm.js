@@ -66,4 +66,6 @@
 
 let countdown;
 
-function setup() 
+function setup() {
+    createCanvas(600, )
+} 
