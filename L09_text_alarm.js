@@ -70,8 +70,8 @@ function setup() {
     createCanvas(600, 400);
     intervalId = setInterval(updateCountdown, 1000);
     textAlign(CENTER, CENTER);
-//     textSize(40);
-    fill("blue");
+    textSize(40);
+    fill("black");
 } 
 
 function updateCountdown() {
