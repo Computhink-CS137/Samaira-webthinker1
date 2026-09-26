@@ -71,4 +71,6 @@ function setup() {
 
 } 
 
-function updateCountdown()
+function updateCountdown() {
+    
+}
