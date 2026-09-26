@@ -84,7 +84,7 @@ function mousepressed() {
     // everytime click on mouse countdown will resteart becuase code above will run, and 
     // call to updateCountdown
     countdownstart = true;
-    // whilst one 
+    // whilst one countdown is going on countdown start is true, so t
     }
 }
 
