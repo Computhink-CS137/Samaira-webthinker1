@@ -4,7 +4,9 @@ let displayText = "your name; ";
 // text to display on canvas
 
 function setup() {
-
+    
 }
 
-function draw()
+function draw() {
+
+}
