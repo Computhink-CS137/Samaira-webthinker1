@@ -81,7 +81,7 @@ function updateCountdown() {
     // what happens every time countdown is called
     countdown -= 1; 
     // reduce countdown by 1, evertime it's called, which is every 1 secon
-    if (countdown < 1) {
+    if (countdown <= 0) {
         countdown = 0;
         clearInterval(intervalId)
         // clearing interval = stoping the loop, stop the interval from repeating, with out stopping will go on forver, stop by using the intervalId
