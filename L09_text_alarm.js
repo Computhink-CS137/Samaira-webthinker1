@@ -37,7 +37,7 @@ function setup() {
     
     intervalId = setInterval(drawCircle, 100);
     // creates a loop to call drawCircle function every 1000milliseconds(1 second)
-
+    // interval 
 }
 
 function draw() {
