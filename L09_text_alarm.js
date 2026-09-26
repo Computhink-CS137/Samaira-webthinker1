@@ -79,7 +79,7 @@ function setup() {
 
 function updateCountdown() {
     countdown -= 1; 
-    // reduce 
+    // reduce countdown by 
     if (countdown < 1) {
         countdown = 5;
     }
