@@ -71,7 +71,8 @@ function setup() {
     intervalId = setInterval(updateCountdown, 1000);
     textAlign(CENTER, CENTER);
     textSize(40);
-    fill("black");
+    fill("white");
+    back
 } 
 
 function updateCountdown() {
