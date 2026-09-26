@@ -5,6 +5,7 @@ let displayText = "your name; ";
 
 function setup() {
     createCanvas(600, 400);
+
     
 }
 
