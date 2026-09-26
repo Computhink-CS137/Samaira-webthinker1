@@ -5,6 +5,10 @@ let displayText = "your name; ";
 
 function setup() {
     createCanvas(600, 400);
+    textAlign(CENTER, CENTER);
+    textSize(60);
+    fill("white");
+    background(0);
 
 
     // create input feild, bos=xes where you click then type/fill in stuff
