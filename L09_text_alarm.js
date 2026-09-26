@@ -76,11 +76,11 @@ function setup() {
 } 
 
 function mousePressed() { 
-    countdown = 5;
     // setcountdown back to five, for future re-runs
     if (countdownStart === false) { 
         // only when countdownStart is false can you start
         intervalId = setInterval(updateCountdown, 1000);
+        countdown = 5;
     // intervalId = how to identify/call each interval because can have many, is a "fixed" variable
     // every 1000 milliseconds update countdown function will be called
     // everytime click on mouse countdown will resteart becuase code above will run, and 
