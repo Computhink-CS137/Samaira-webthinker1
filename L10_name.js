@@ -2,6 +2,8 @@ let inputText;
 // store user input
 let displayText = "your name; ";
 // text to display on canvas
+let inputX;
+let inputY;
 
 function setup() {
     createCanvas(600, 400);
