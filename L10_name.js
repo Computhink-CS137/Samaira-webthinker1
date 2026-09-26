@@ -6,7 +6,8 @@ let displayText = "your name; ";
 function setup() {
     createCanvas(600, 400);
 
-    // create input fiel
+    // create input feild, bos=xes where you click then type/fill in stuff
+    input
 }
 
 function draw() {
