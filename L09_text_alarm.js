@@ -88,6 +88,6 @@ function updateCountdown() {
 function draw() {
     background(0);
     text(countdown, width / 2, height / 2);
-    // text(variable)--
+    // text(variable)--> shows variable value on screen in text
     
 }
