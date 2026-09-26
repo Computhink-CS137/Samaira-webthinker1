@@ -77,6 +77,7 @@ function setup() {
 
 function mousepressed() { 
     if (countdownStart === false) 
+        
         { intervalId = setInterval(updateCountdown, 1000);
     // intervalId = how to identify/call each interval because can have many, is a "fixed" variable
     // every 1000 milliseconds update countdown function will be called
@@ -95,7 +96,7 @@ function updateCountdown() {
         countdown = 0;
         clearInterval(intervalId)
         // clearing interval = stoping the loop, stop the interval from repeating, with out stopping will go on forver, stop by using the intervalId
-        countdownStart = false;setup;
+        countdownStart = false;
     }
 }
 
