@@ -83,7 +83,8 @@ function updateCountdown() {
     // reduce countdown by 1, evertime it's called, which is every 1 secon
     if (countdown < 1) {
         countdown = 0;
-        clearInterval()
+        clearInterval(intervalId)
+        
     }
 }
 
