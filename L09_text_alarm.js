@@ -76,7 +76,5 @@ function updateCountdown() {
     if (countdown < 1) {
         countdown = 5;
     }
-
-
-
 }
+
