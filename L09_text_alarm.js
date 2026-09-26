@@ -72,7 +72,7 @@ function setup() {
     textAlign(CENTER, CENTER);
     textSize(40);
     fill("white");
-    background(0)
+    background(0);
 } 
 
 function updateCountdown() {
@@ -84,4 +84,5 @@ function updateCountdown() {
 
 function draw() {
     text(countdown, width / 2, length / 2);
+    
 }
