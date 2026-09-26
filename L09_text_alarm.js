@@ -77,7 +77,9 @@ function setup() {
     background(0);
 } 
 
-
+function mousepressed() {
+    
+}
 
 function updateCountdown() {
     // what happens every time countdown is called
