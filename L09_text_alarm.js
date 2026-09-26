@@ -77,6 +77,8 @@ function setup() {
     background(0);
 } 
 
+
+
 function updateCountdown() {
     // what happens every time countdown is called
     countdown -= 1; 
@@ -94,3 +96,4 @@ function draw() {
     // text(variable)--> shows variable value on screen in text
     
 }
+
