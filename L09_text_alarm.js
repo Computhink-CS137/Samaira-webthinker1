@@ -85,7 +85,7 @@ function mousePressed() {
     // every 1000 milliseconds update countdown function will be called
     // everytime click on mouse countdown will resteart becuase code above will run, and 
     // call to updateCountdown
-        countdownstart = true;
+        countdownStart = true;
     // whilst one countdown is going on countdown start is true, so that cant start a new timer inbetween one timer
     }
 }
