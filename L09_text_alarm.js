@@ -84,7 +84,7 @@ function updateCountdown() {
     if (countdown < 1) {
         countdown = 0;
         clearInterval(intervalId)
-        // clearing interv
+        // clearing interval = stoping the loop, stop 
     }
 }
 
