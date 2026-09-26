@@ -69,7 +69,9 @@ let countdown = 5;
 function setup() {
     createCanvas(600, 400);
     intervalId = setInterval(updateCountdown, 1000);
-    text
+    textAlign(CENTER, CENTER);
+//     textSize(40);
+    fill("blue");
 } 
 
 function updateCountdown() {
