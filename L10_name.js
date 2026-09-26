@@ -22,5 +22,5 @@ function draw() {
 function updateText() {
     // save input into dispaly text whenver user types
     displayText = this.value()
-    // = value that coems 
+    // = value that comes from input variable
 }
