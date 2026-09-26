@@ -12,7 +12,7 @@ function setup() {
     inputText.position(width / 2, height / 2);
 
     // save input into displayText whenever user types
-    inputText.input(displayText);
+    inputText.input(updateText);
 }
 
 function draw() {
