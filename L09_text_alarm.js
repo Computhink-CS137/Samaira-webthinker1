@@ -68,9 +68,6 @@ let countdown = 5;
 
 function setup() {
     createCanvas(600, 400);
-    intervalId = setInterval(updateCountdown, 1000);
-    // intervalId = how to identify/call each interval because can have many, is a "fixed" variable
-    // every 1000 milliseconds update countdown function will be called
     textAlign(CENTER, CENTER);
     textSize(60);
     fill("white");
@@ -81,6 +78,7 @@ function mousepressed() {
     intervalId = setInterval(updateCountdown, 1000);
     // intervalId = how to identify/call each interval because can have many, is a "fixed" variable
     // every 1000 milliseconds update countdown function will be called
+    // 
 }
 
 function updateCountdown() {
