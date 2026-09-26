@@ -54,3 +54,5 @@ function drawCircle() {
     }
 
 }
+
+function mousePressed() 
