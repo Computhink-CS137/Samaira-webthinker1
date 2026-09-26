@@ -30,6 +30,4 @@
 // }
 // 
 
-// make a timer 
-
-let countdown;
+// make a timer
