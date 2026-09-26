@@ -28,36 +28,6 @@
 //     text(timeString, width / 2, height / 2);
 
 // }
-let intervalId;
-let x = 0;
+// 
 
-function setup() {
-    createCanvas(600, 400);
-    
-    
-    intervalId = setInterval(drawCircle, 100);
-    // creates a loop to call drawCircle function every 1000milliseconds(1 second)
-    // interval = loop that happens on it's own,(reapeats)
-}
-
-function draw() {
-
-}
-
-function drawCircle() {
-    clear();
-    circle(x, 50, 20);
-    x += 10; 
-    // circle move right 10 px
-    if (x > 380) {
-        x = 20
-    }
-
-}
-
-function mousePressed() {
-    // stop an interval from using it's ID, id it to keep track of which interval,can 
-    // be any variable;  
-    clearInterval(intervalId);
-
-}
+// make a timer 
