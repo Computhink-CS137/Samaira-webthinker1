@@ -63,7 +63,7 @@
 // }
 
 // make a timer
-let intervalId
+let intervalId;
 let countdown = 5;
 let countdownStart = false;
 
