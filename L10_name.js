@@ -20,5 +20,5 @@ function draw() {
 }
 
 function updateText() {
-    
+    // s
 }
