@@ -98,7 +98,7 @@ function updateCountdown() {
         clearInterval(intervalId)
         // clearing interval = stoping the loop, stop the interval from repeating, with out stopping will go on forver, stop by using the intervalId
         countdownStart = false;
-        // once first timer is over, countdownSt
+        // once first timer is over, countdownStart = false, so can start another timer
     }
 }
 
