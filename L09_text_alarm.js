@@ -79,7 +79,7 @@ function setup() {
 
 function updateCountdown() {
     countdown -= 1; 
-    // reduce countdown by 
+    // reduce countdown by 1, evertime it's called, which is every 1 second
     if (countdown < 1) {
         countdown = 5;
     }
