@@ -20,5 +20,6 @@ function draw() {
 }
 
 function updateText() {
-    // s
+    // save input into dispaly text whenver user types
+    displaytext 
 }
