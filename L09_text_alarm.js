@@ -84,7 +84,7 @@ function mousepressed() {
     // everytime click on mouse countdown will resteart becuase code above will run, and 
     // call to updateCountdown
     countdownstart = true;
-    // whilst one countdown is going on countdown start is true, so t
+    // whilst one countdown is going on countdown start is true, so that cant start a new timer inbetween one timer
     }
 }
 
@@ -98,6 +98,7 @@ function updateCountdown() {
         clearInterval(intervalId)
         // clearing interval = stoping the loop, stop the interval from repeating, with out stopping will go on forver, stop by using the intervalId
         countdownStart = false;
+        
     }
 }
 
