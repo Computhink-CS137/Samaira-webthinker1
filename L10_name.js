@@ -21,5 +21,5 @@ function draw() {
 
 function updateText() {
     // save input into dispaly text whenver user types
-    displaytext 
+    displayText = this.value()
 }
