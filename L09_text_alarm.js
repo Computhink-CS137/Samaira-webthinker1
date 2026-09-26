@@ -79,7 +79,7 @@ function setup() {
 
 function updateCountdown() {
     countdown -= 1; 
-    // reduce countdown by 1, evertime it's called, which is every 1 second
+    // reduce countdown by 1, evertime it's called, which is every 1 secon
     if (countdown < 1) {
         countdown = 5;
     }
@@ -87,6 +87,6 @@ function updateCountdown() {
 
 function draw() {
     background(0);
-    text(countdown, width / 2, length / 2);
+    text(countdown, width / 2, hei / 2);
     
 }
