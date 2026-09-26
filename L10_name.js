@@ -7,7 +7,8 @@ function setup() {
     createCanvas(600, 400);
 
     // create input feild, bos=xes where you click then type/fill in stuff
-    input
+    inputText = crateInput();
+    
 }
 
 function draw() {
