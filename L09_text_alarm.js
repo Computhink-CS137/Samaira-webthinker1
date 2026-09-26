@@ -78,3 +78,6 @@ function updateCountdown() {
     }
 }
 
+function draw() {
+    
+}
