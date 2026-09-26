@@ -33,6 +33,7 @@ let x = 0;
 
 function setup() {
     createCanvas(600, 400);
+    background(0)
     
     intervalId = setInterval(drawCircle, 100);
     // creates a loop to call drawCircle function 
