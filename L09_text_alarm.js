@@ -75,13 +75,12 @@ function setup() {
     background(0);
 } 
 
-function mousepressed() {
-    if (countdownStart === false) {}
-    intervalId = setInterval(updateCountdown, 1000);
+function mousepressed() {}
+    if (countdownStart === false) { intervalId = setInterval(updateCountdown, 1000);
     // intervalId = how to identify/call each interval because can have many, is a "fixed" variable
     // every 1000 milliseconds update countdown function will be called
     // everytime click on mouse countdown will resteart becuase code above will run, and 
-    // call to updateCountdown
+    // call to updateCountdown}
 }
 
 function updateCountdown() {
