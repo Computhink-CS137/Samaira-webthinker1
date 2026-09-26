@@ -23,5 +23,5 @@ function updateText() {
     // save input into dispaly text whenver user types
     displayText = this.value()
     // = value that comes from input variable
-    cons
+    console
 }
