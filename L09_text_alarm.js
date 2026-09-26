@@ -70,7 +70,7 @@ function setup() {
     createCanvas(600, 400);
     intervalId = setInterval(updateCountdown, 1000);
     // intervalId = how to identify/call each interval because can have many, is a "fixed" variable
-    
+    // 
     textAlign(CENTER, CENTER);
     textSize(40);
     fill("white");
