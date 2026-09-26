@@ -72,7 +72,7 @@ function setup() {
     textAlign(CENTER, CENTER);
     textSize(40);
     fill("white");
-    back
+    background(0)
 } 
 
 function updateCountdown() {
