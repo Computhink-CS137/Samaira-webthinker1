@@ -65,7 +65,7 @@
 // make a timer
 let intervalId
 let countdown = 5;
-let countdownStart = F
+let countdownStart = false;
 
 function setup() {
     createCanvas(600, 400);
