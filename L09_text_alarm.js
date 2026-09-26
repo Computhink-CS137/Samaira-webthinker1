@@ -56,7 +56,7 @@ function drawCircle() {
 }
 
 function mousePressed() {
-    // stop an interval from using it's ID
+    // stop an interval from using it's ID, zid it 
     clearInterval(intervalId);
 
 }
