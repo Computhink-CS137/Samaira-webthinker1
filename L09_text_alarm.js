@@ -82,7 +82,7 @@ function mousepressed() {
     // every 1000 milliseconds update countdown function will be called
     // everytime click on mouse countdown will resteart becuase code above will run, and 
     // call to updateCountdown
-    
+    countdownstart = true;
     }
 }
 
