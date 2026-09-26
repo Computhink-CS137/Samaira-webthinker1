@@ -11,7 +11,7 @@ function setup() {
     inputText = crateInput();
     inputText.position(width / 2, height / 2);
 
-    
+    // call updateText function when user types
     inputText.input(updateText);
 }
 
