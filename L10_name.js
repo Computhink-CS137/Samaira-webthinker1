@@ -19,7 +19,7 @@ function setup() {
     inputX = this.canvas.offsetLeft + (width / 2) - 80;
     inputY = this.canvas.offsetTop + (height / 2) - 10;
     // positioning 
-    inputText.position(width / 2, height / 2);
+    inputText.position(width / 2, height );
 
     // call updateText function when user types
     inputText.input(updateText);
