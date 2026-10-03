@@ -76,5 +76,6 @@ function generateStory() {
     // JS take on python f-string, called templates very similar
     // JS template e.g. "a ${noun} was ${verb}ing"
     let story = "A ${noun} was ${verb}ing, ";
-    
+
+    console.log(story)
 }
