@@ -75,7 +75,7 @@ function generateStory() {
     // JS take on python f-string, called templates very similar
     // JS template e.g. `a ${noun} was ${verb}ing`
     // basically same a python, jsut add dollar sign, and use backtick, thid next to no. 1, on keyboard
-    let story = `the ${noun} was ${adverb} ${verb}ing, they are very ${adjective},  `;
+    let story = `the ${noun} was ${adverb} ${verb}ing, at ${place}, they are very ${adjective},  `;
 
     console.log(story);
 }
