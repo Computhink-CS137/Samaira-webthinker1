@@ -48,7 +48,7 @@ function draw() {
     text("Enter a verb;", width * 0.2, height * 0.2 + 70);
     text("Enter a adjective;", width * 0.2 , height * 0.2 + 120);
     text("Enter a adverb;", width * 0.2, height * 0.2 + 170);
-    text("Enter a place;", width * 0.2, height * 0.2 + 200);
+    text("Enter a place;", width * 0.2, height * 0.2 + 220);
 
     console.log(nounField.value());
 }
