@@ -3,6 +3,7 @@ let verbField;
 let adjectiveField;
 let adverbField;
 let placeField;
+let submitButton;
 
 
 function setup() {
