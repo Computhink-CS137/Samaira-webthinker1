@@ -20,7 +20,7 @@ function setup() {
     placeField = createInput();
 
     // offset canvas to position; use propper cnavas
-    let offsetX = this.canavas.offsetLeft;
+    let offsetX = this.canvas.offsetLeft;
     let offsetY = this.canvas.offsetTop;
 
 // position input fields
