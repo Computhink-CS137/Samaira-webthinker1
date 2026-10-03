@@ -33,7 +33,7 @@ function setup() {
     // create button
     submitButton = createButton("generate story")
     // generate story = button name, can be called "anything"
-    submitButton.position(widht / 2 + offsetX, height * 0.2, + offsetY + 250)
+    submitButton.position(widht / 2 + offsetX, height * 0.2, + offsetY + 250);
     submitButton.mousePressed(generateStory);
     // when mosur Pressed,call function button example  
 
@@ -44,11 +44,11 @@ function draw() {
     background(100);
 
         // text beside input
-    text("Enter a noun;", width * 0.2 , height * 0.2 + offsetY )
-    text("Enter a verb;", width * 0.2, height * 0.2 + offsetY + 50)
-    text("Enter a adjective;", width * 0.2 , height * 0.2 + offsetY + 100)
-    text("Enter a adverb;", 100 , width * 0.2 * 0.2 + offsetY + 150)
-    text("Enter a place;", 100 , width * 0.2 * 0.2 + offsetY + 200)
+    text("Enter a noun;", width * 0.2 , height * 0.2 + offsetY );
+    text("Enter a verb;", width * 0.2, height * 0.2 + offsetY + 50);
+    text("Enter a adjective;", width * 0.2 , height * 0.2 + offsetY + 100);
+    text("Enter a adverb;", 100 , width * 0.2 * 0.2 + offsetY + 150);
+    text("Enter a place;", 100 , width * 0.2 * 0.2 + offsetY + 200);
 
     console.log(nounField.value());
 }
