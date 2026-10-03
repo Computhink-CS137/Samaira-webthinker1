@@ -29,6 +29,7 @@ function setup() {
     colorPicker = createColorPicker();
     // color picker position
     let colorX = this.canvas.offsetLeft + (width / 2) - 20;
+    
     let colorY = this.canvas.offsetTop + (height * 0.7)
     colorPicker.position(width / 2 - 20, height * 0.7);
 }
