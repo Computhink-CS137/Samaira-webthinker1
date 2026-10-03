@@ -25,7 +25,8 @@ function setup() {
     // call updateText function when user types
     inputText.input(updateText);
 
-    
+    // create color picker, built in JS function
+    colorPicker = createCOlor
 }
 
 function draw() {
