@@ -66,5 +66,5 @@ function generateStory() {
     let adverb = adverbField.value();
     let place = placeField.value();
 
-    console
+    console.log(noun)
 }
