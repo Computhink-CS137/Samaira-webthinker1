@@ -59,5 +59,6 @@ function buttonExample() {
 
 
 function generateStory() {
-    
+    // find value of all inputs
+    let noun
 }
