@@ -33,7 +33,7 @@ function setup() {
     // create button
     submitButton = createButton("generate story")
     // generate story = button name, can be called "anything"
-    submitButton.position(widht / 2 + offsetX, height * 0.2, + offsetY + 225)
+    submitButton.position(widht / 2 + offsetX, height * 0.2, + offsetY + 250)
 
 }
         
