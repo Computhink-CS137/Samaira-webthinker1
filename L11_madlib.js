@@ -25,9 +25,9 @@ function setup() {
 
 // position input fields
     nounField.position(width / 2 + offsetX, height * 0.2 + offsetY);
-    verbField.position(width / 2 + offsetX, height * 0.2 + offsetY + 50);
-    adjectiveField.position(width / 2 + offsetX, height * 0.2 + offsetY + 100);
-    adverbField.position(width / 2 + offsetX, height * 0.2 + offsetY + 150);
+    verbField.position(width / 2 + offsetX, height * 0.2 + offsetY + 60);
+    adjectiveField.position(width / 2 + offsetX, height * 0.2 + offsetY + 110);
+    adverbField.position(width / 2 + offsetX, height * 0.2 + offsetY + 160);
     placeField.position(width / 2 + offsetX, height * 0.2 + offsetY + 200);
 
     // create button
