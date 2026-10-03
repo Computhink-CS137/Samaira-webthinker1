@@ -24,11 +24,11 @@ function setup() {
     let offsetY = this.canvas.offsetTop;
 
 // position input fields
-    nounField.position(width / 2 + offsetX, height * 0.2 + offsetY);
-    verbField.position(width / 2 + offsetX, height * 0.2 + offsetY + 60);
+    nounField.position(width / 2 + offsetX, height * 0.2 + offsetY + 20);
+    verbField.position(width / 2 + offsetX, height * 0.2 + offsetY + 70);
     adjectiveField.position(width / 2 + offsetX, height * 0.2 + offsetY + 110);
     adverbField.position(width / 2 + offsetX, height * 0.2 + offsetY + 160);
-    placeField.position(width / 2 + offsetX, height * 0.2 + offsetY + 200);
+    placeField.position(width / 2 + offsetX, height * 0.2 + offsetY + 210);
 
     // create button
     submitButton = createButton("generate story");
