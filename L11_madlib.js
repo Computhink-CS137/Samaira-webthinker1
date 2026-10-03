@@ -62,5 +62,5 @@ function generateStory() {
     // find value of all inputs
     let noun = nounField.value();
     let verb = verbField.value();
-    
+    let adjective = adjective =
 }
