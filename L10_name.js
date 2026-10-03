@@ -24,6 +24,8 @@ function setup() {
 
     // call updateText function when user types
     inputText.input(updateText);
+
+    
 }
 
 function draw() {
@@ -40,4 +42,3 @@ function updateText() {
     // gets updated in console
 }
 
-// create color picker, built in JS function
