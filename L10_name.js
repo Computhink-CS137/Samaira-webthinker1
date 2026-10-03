@@ -49,4 +49,5 @@ function updateText() {
     // console.log = like print in python, whenever you type something 
     // gets updated in console
 }
+// 
 
