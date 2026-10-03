@@ -61,5 +61,6 @@ function buttonExample() {
 function generateStory() {
     // find value of all inputs
     let noun = nounField.value();
-    let verb = verb
+    let verb = verbField.value();
+    
 }
