@@ -30,7 +30,7 @@ function setup() {
     // color picker position
     let colorX = this.canvas.offsetLeft + (width / 2) - 20;
     // offset --> allways asume top canvas is at top left so do coordinates from top left 
-    
+    // by default. this.canvas, 
     let colorY = this.canvas.offsetTop + (height * 0.7)
     colorPicker.position(width / 2 - 20, height * 0.7);
 }
