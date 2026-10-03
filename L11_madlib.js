@@ -73,5 +73,6 @@ function generateStory() {
     console.log(adverb);
     console.log(place);
 
-    // JS take on python f-string, called templates very sim
+    // JS take on python f-string, called templates very similar
+    
 }
