@@ -40,7 +40,7 @@ function draw() {
     text("Enter a adverb;", 100 , width * 0.2 * 0.2 + offsetY + 150)
     text("Enter a place;", 100 , width * 0.2 * 0.2 + offsetY + 200)
 
-    console.log(nounField.valvue())
+    console.log(nounField.value());
 }
 
 
