@@ -11,7 +11,7 @@ function setup() {
     // text settings
     fill(255, 255, 0);
     textSize(40);
-    textalign(CEN)
+    textalign(CENTER, CENTER);
 
     // creating an input field for each
     nounField = createInput();
