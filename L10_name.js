@@ -4,7 +4,8 @@ let displayText = "your name; ";
 // text to display on canvas
 let inputX;
 let inputY;
-let colorPicker
+let colorPicker;
+
 function setup() {
     createCanvas(600, 400);
     textAlign(CENTER, CENTER);
