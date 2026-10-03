@@ -26,9 +26,9 @@ function setup() {
 // position input fields
     nounField.position(width / 2 + offsetX, height * 0.2 + offsetY + 20);
     verbField.position(width / 2 + offsetX, height * 0.2 + offsetY + 70);
-    adjectiveField.position(width / 2 + offsetX, height * 0.2 + offsetY + 110);
-    adverbField.position(width / 2 + offsetX, height * 0.2 + offsetY + 160);
-    placeField.position(width / 2 + offsetX, height * 0.2 + offsetY + 210);
+    adjectiveField.position(width / 2 + offsetX, height * 0.2 + offsetY + 120);
+    adverbField.position(width / 2 + offsetX, height * 0.2 + offsetY + 170);
+    placeField.position(width / 2 + offsetX, height * 0.2 + offsetY + 220);
 
     // create button
     submitButton = createButton("generate story");
