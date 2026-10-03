@@ -39,4 +39,4 @@ function updateText() {
     // gets updated in console
 }
 
-// 
+// create color picker, built in JS function
