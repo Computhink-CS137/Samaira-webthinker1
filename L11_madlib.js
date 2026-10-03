@@ -58,3 +58,6 @@ function buttonExample() {
 }
 
 
+function generateStory() {
+    
+}
