@@ -33,7 +33,7 @@ function setup() {
     // create button
     submitButton = createButton("generate story");
     // generate story = button name, can be called "anything"
-    submitButton.position(width / 2 + offsetX, height * 0.2, + offsetY + 250);
+    submitButton.position(width / 2 + offsetX, height * 0.2 + offsetY + 250);
     submitButton.mousePressed(generateStory);
     // when mosur Pressed,call function button example  
 
