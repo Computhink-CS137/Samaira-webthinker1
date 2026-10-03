@@ -51,8 +51,8 @@ function draw() {
     console.log(nounField.value());
 }
 
-function button() {
-    
+function buttonExample() {
+
 }
 
 
