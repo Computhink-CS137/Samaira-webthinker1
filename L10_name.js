@@ -35,7 +35,7 @@ function setup() {
 
 function draw() {
     background(colorPicker.value());
-    // 
+    // background = value a variable
     text(displayText, width / 2, height / 2)
 }
 
