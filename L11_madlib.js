@@ -18,8 +18,8 @@ function setup() {
     adjectiveField = createInput();
     adverbField = createInput();
     placeField = createInput();
-}
-        // offset canvas to position; use propper cnavas
+
+    // offset canvas to position; use propper cnavas
     let offsetX = this.canavs.offsetLeft;
     let offsetY = this.canvas.offsetTop;
 
@@ -30,6 +30,8 @@ function setup() {
     adverbField.position(width / 2 + offsetX, height * 0.2 + offsetY + 150);
     placeField.position(width / 2 + offsetX, height * 0.2 + offsetY + 200);
 
+}
+        
 
 function draw() {
     background(100);
