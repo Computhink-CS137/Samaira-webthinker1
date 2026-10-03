@@ -10,7 +10,7 @@ function setup() {
     createCanvas(600, 600);
     // text settings
     fill(255, 255, 0);
-    textSize(40);
+    textSize(20);
 
     // creating an input field for each
     nounField = createInput();
