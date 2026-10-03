@@ -44,8 +44,8 @@ function draw() {
     background(100);
 
         // text beside input
-    text("Enter a noun;", width * 0.2 , height * 0.2 );
-    text("Enter a verb;", width * 0.2, height * 0.2 + 50);
+    text("Enter a noun;", width * 0.2 , height * 0.2 + 20);
+    text("Enter a verb;", width * 0.2, height * 0.2 + 70);
     text("Enter a adjective;", width * 0.2 , height * 0.2 + 100);
     text("Enter a adverb;", width * 0.2, height * 0.2 + 150);
     text("Enter a place;", width * 0.2, height * 0.2 + 200);
