@@ -26,7 +26,8 @@ function setup() {
     inputText.input(updateText);
 
     // create color picker, built in JS function
-    colorPicker = createColorPicker()
+    colorPicker = createColorPicker();
+    
 }
 
 function draw() {
