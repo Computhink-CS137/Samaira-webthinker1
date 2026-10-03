@@ -39,6 +39,8 @@ function draw() {
     text("Enter a adjective;", width * 0.2 , height * 0.2 + offsetY + 100)
     text("Enter a adverb;", 100 , width * 0.2 * 0.2 + offsetY + 150)
     text("Enter a place;", 100 , width * 0.2 * 0.2 + offsetY + 200)
+
+    console.log()
 }
 
 
