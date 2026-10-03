@@ -74,5 +74,5 @@ function generateStory() {
     console.log(place);
 
     // JS take on python f-string, called templates very similar
-    // JS template eg.
+    // JS template e.g. "a "
 }
