@@ -73,5 +73,5 @@ function generateStory() {
     console.log(adverb);
     console.log(place);
 
-    // JS take on python f-string, called templates va
+    // JS take on python f-string, called templates very sim
 }
