@@ -34,7 +34,7 @@ function setup() {
 }
 
 function draw() {
-    background(0);
+    background(C);
     text(displayText, width / 2, height / 2)
 }
 
