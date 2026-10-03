@@ -77,5 +77,5 @@ function generateStory() {
     // JS template e.g. "a ${noun} was ${verb}ing"
     let story = "A ${noun} was ${verb}ing, ";
 
-    console.log(story)
+    console.log(story);
 }
