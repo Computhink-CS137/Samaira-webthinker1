@@ -63,5 +63,5 @@ function generateStory() {
     let noun = nounField.value();
     let verb = verbField.value();
     let adjective = adjectiveField.value();
-    let adverb
+    let adverb = adverbField.value
 }
