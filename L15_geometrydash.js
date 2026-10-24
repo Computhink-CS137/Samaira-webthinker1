@@ -33,7 +33,7 @@ function draw () {
         velocity = 0;
         // because playerY += velocity, if on ground, stay on ground.
     } else {
-        
+        isGrounded = false;
     }
 
     // draw player(a rectangle) - (x, y, width, height)
