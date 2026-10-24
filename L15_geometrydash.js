@@ -39,7 +39,7 @@ function setup() {
 
 function draw () {
     background(0);
-    // 
+    // ! = not, if game not over 
     if(!gameOver) {
         // jump and gravity
         velocity += 0.8; 
