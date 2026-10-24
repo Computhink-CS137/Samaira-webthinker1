@@ -39,58 +39,58 @@ function setup() {
 
 function draw () {
     background(0);
-
+    
     if(!gameOver) {
-        
-    }
-
-    // jump and gravity
-    velocity += 0.8; 
-    // gravity = 0.81, when use plus, that means going down, because 
-    // 400 value, bottem of canvas
-    // reduce Y by 0.8 every frame even when jumping
-    // reduce = bring closer to ground because plus
-    playerY += velocity;
-
-    // jump
-    if (playerY >= height - playerSize) {
-        // prevent player from falling through ground, 
-        playerY = height - playerSize;
-        // set player back to ground
-        isGrounded = true;
-        velocity = 0;
-        // player is on ground, don't need to pull below screen, via gravity(velocity)
-    } else {
-        isGrounded = false;
-    }
-
-    // draw player(a rectangle) - (x, y, width, height)
-    rect(playerX, playerY, playerSize, playerSize);
-
-    // draw spikes
-    fill(255, 0, 0);
-    for (let i = 0; i < spikesX.length; i++) {
-        // make spikes move to the left
-        spikesX[i] -= spikeSpeed;
-        // spikeX = variable, i cant be more than len. of variable
-
-        // check when spikes go past the left side(out of screen)
-        if (spikesX[i] < -spikesWidth) {
-            // -spikewidth ---> position = once the spike is out of 
-            // screen on the left(0), then minus spikeWidth, 
-            // so it is fully out of screen
-            spikesX[i] = width + random(100, 300);
-            // spikeX[i]-(item in array) = position = width of canvas
-            // + a random no. so it is further of screen, and it will 
-            // come on screen at random times, because speed is constant
-            // #all the values in the array are positions of spikes
+        // jump and gravity
+        velocity += 0.8; 
+        // gravity = 0.81, when use plus, that means going down, because 
+        // 400 value, bottem of canvas
+        // reduce Y by 0.8 every frame even when jumping
+        // reduce = bring closer to ground because plus
+        playerY += velocity;
+    
+        // jump
+        if (playerY >= height - playerSize) {
+            // prevent player from falling through ground, 
+            playerY = height - playerSize;
+            // set player back to ground
+            isGrounded = true;
+            velocity = 0;
+            // player is on ground, don't need to pull below screen, via gravity(velocity)
+        } else {
+            isGrounded = false;
         }
-        // draw physical spikes(triangles)
-        fill(0, 255, 0)
-        triangle(spikesX[i], height, spikesX[i] + spikesWidth / 2, height - spikesHeight, spikesX[i] + spikesWidth, height);
+    
+        // draw player(a rectangle) - (x, y, width, height)
+        rect(playerX, playerY, playerSize, playerSize);
+    
+        // draw spikes
+        fill(255, 0, 0);
+        for (let i = 0; i < spikesX.length; i++) {
+            // make spikes move to the left
+            spikesX[i] -= spikeSpeed;
+            // spikeX = variable, i cant be more than len. of variable
+    
+            // check when spikes go past the left side(out of screen)
+            if (spikesX[i] < -spikesWidth) {
+                // -spikewidth ---> position = once the spike is out of 
+                // screen on the left(0), then minus spikeWidth, 
+                // so it is fully out of screen
+                spikesX[i] = width + random(100, 300);
+                // spikeX[i]-(item in array) = position = width of canvas
+                // + a random no. so it is further of screen, and it will 
+                // come on screen at random times, because speed is constant
+                // #all the values in the array are positions of spikes
+            }
+            // draw physical spikes(triangles)
+            fill(0, 255, 0)
+            triangle(spikesX[i], height, spikesX[i] + spikesWidth / 2, height - spikesHeight, spikesX[i] + spikesWidth, height);
+    
+        }
+    
+    
 
-    }
-
+    }    
 
 
 }
