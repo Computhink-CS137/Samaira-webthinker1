@@ -70,7 +70,7 @@ function draw () {
         // spikeX = variable, i cant be more than len. of variable
 
         // check when spikes go past the left side(out of screen)
-        if (spikesX[i] < -spikeWidth) {
+        if (spikesX[i] < -spikesWidth) {
             // -spikewidth ---> position = once the spike is out of 
             // screen on the left(0), then minus spikeWidth, 
             // so it is fully out of screen
