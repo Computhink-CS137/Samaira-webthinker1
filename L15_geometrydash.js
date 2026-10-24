@@ -95,7 +95,7 @@ function draw () {
         fill(20, 255, 45);
         textSize(40);
         text("game Over!", width / 2, height / 2);
-        
+        // display text center 
 
     }  
 
