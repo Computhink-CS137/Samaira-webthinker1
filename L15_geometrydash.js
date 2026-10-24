@@ -18,5 +18,5 @@ function setup() {
 function draw () {
     background(0);
 
-    // d
+    // draw player(a rectangle) - (x, )
 }
