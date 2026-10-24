@@ -9,5 +9,5 @@ let isGround = false;
 function setup() {
     createCanvas(600, 400);
     textAlign(CENTER, CENTER);
-    playerY = height - player
+    playerY = height - playerSize;
 }
