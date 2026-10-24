@@ -67,7 +67,7 @@ function draw () {
     for (let i = 0; i < spikesX.length; i++) {
         // make spikes move to the left
         spikesX[i] -= spikeSpeed;
-        // spikeX = 
+        // spikeX = variable, i cant 
     }
 
 }
