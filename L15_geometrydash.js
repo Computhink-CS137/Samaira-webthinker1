@@ -3,4 +3,4 @@ let playerX = 100;
 let playerY;
 let playerSize = 30; 
 // measured in pixels 
-let velo
+let velocity = 0;
