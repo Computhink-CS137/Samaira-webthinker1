@@ -83,7 +83,8 @@ function draw () {
 
     }
 
-    // draw p
+    // draw physical spikes(triangles)
+    
 
 }
 
