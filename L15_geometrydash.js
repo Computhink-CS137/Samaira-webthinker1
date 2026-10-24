@@ -75,7 +75,7 @@ function draw () {
             // screen on the left(0), then minus spikeWidth, 
             // so it is fully out of screen
             spikeX[i] = width + random(100, 300);
-            // 
+            // spikeX[i]
         }
 
     }
