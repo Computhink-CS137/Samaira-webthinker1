@@ -1,1 +1,1 @@
-// write your codes here
+// setting up a sprite
