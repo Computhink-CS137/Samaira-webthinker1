@@ -29,7 +29,7 @@ function draw () {
     velocity += 0.8; 
     // gravity = 0.81, when use plus, that means going down, because 
     // 400 value, bottem of canvas
-    // reduce by y 
+    // reduce Y by 0.
     playerY += velocity;
 
     // jump
