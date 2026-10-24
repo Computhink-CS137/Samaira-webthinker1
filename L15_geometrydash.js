@@ -93,7 +93,8 @@ function draw () {
                 playerX < spikes[i] + spikesWidth &&
                 playerY + playerSize > height - spikesHeight
                 // checking if players Yposition falls 
-                // ontop of spike(touch)
+                // ontop of spike(touch), player Y = Y pos. 
+                // &
             ) {
                 gameOver = true;
             }
