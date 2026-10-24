@@ -44,7 +44,8 @@ function draw () {
         if (key === " " && isGrounded === true) {
             // increasing velocity = gowing down, decreasing velocity(negatives)
             // = going up
-            
+            velocity = -12;
+            // 
         }
     }
 
