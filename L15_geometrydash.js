@@ -91,7 +91,8 @@ function draw () {
     
 
     }  else {
-        // game over
+        // game is over
+        fill()
     }  
 
 
