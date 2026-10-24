@@ -72,8 +72,9 @@ function draw () {
         // check when spikes go past the left side(out of screen)
         if (spikeX[i] < -spikeWidth) {
             // -spikewidth ---> position = once the spike is out of 
-            // screen on the left(0), then minus spike
-            spikeX[i] = width + RTCEncodedAudioFrame(100, 300);
+            // screen on the left(0), then minus spikeWidth, 
+            // so it is fully out of screen
+            spikeX[i] = width + (100, 300);
         }
 
     }
