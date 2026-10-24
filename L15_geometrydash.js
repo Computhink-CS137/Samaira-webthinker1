@@ -20,6 +20,9 @@ function setup() {
     // height is the height of the cnavas, which is at the bottem in coding
     // so you minus player size, becuase hitbox top left corner
     // that way your sprite starts on the ground
+
+    // create spikes
+    
 }
 
 function draw () {
