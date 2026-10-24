@@ -7,7 +7,8 @@ let velocity = 0;
 let isGround = false;
 
 // setting up moving spikes
-let spikesX =
+let spikesX = []; 
+//  arr
 
 function setup() {
     createCanvas(600, 400);
