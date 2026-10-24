@@ -32,7 +32,7 @@ function setup() {
         // they are off screen, but we are going to move it left slowly
         // the 3 spikes will rotate in and out, but can go random position
         // offscreen, because speed is constant
-        
+
     }
 }
 
@@ -77,3 +77,17 @@ function draw () {
     }
 
 }
+
+function keyPressed () {
+        // jump when space key is pressed 
+        if (key === " " && isGrounded === true) {
+            // increasing velocity = gowing down, decreasing velocity(negatives)
+            // = going up
+            velocity = -12;
+            // you will go 12 pixels up every frame, then velocity will add 
+            // 0.8 to the Y value from the top of the function, 
+            // the peak point when it starts to fall is when it turns from
+            // negative to positive, 
+    
+        }
+    }
