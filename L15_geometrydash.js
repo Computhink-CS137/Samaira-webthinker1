@@ -90,7 +90,7 @@ function draw () {
             if (
                 playerX + playerSize > spikesX[i] &&
                 // 
-                playerX < spikes[i] + spikesWidth &&
+                playerX < spikesX[i] + spikesWidth &&
                 playerY + playerSize > height - spikesHeight
                 // checking if players Yposition falls 
                 // ontop of spike(touch), player Y = Y pos. 
