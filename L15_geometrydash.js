@@ -10,7 +10,7 @@ let isGround = false;
 let spikesX = []; 
 //  array because we are going to have multiple spikes
 let spikesWidth = 20;
-
+let spikesHeight
 
 function setup() {
     createCanvas(600, 400);
