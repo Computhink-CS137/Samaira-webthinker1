@@ -26,7 +26,9 @@ function setup() {
         spikesX.push(width + i * 300);
         // push means add an item into the array 
         // in this case, we are adding width + i * 300
-        // only 3 spikes max, because i can't be bigger than 
+        // only 3 spikes max, because i can't be bigger than 3
+        // width = width of canvas
+        
     }
 }
 
