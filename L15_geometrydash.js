@@ -17,8 +17,7 @@ function setup() {
 
 function draw () {
     background(0);
-
     // draw player(a rectangle) - (x, y, width, height)
-    Reflect(playerX, playerY, playerSize, playerSize);
-    
+    Rect(playerX, playerY, playerSize, playerSize);
+
 }
