@@ -12,7 +12,7 @@ let spikesX = [];
 let spikesWidth = 20;
 let spikesHeight = 30;
 let spikeSpeed = 5;
-let gameOver = false;
+let gameOver = true;
 
 function setup() {
     createCanvas(600, 400);
@@ -95,7 +95,7 @@ function draw () {
         fill(20, 255, 45);
         textSize(40);
         text("game Over!", width / 2, height / 2);
-        // display text center 
+        // display text center of screen
 
     }  
 
