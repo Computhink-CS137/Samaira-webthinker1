@@ -2,4 +2,5 @@
 let playerX = 100;
 let playerY;
 let playerSize = 30; 
-// me
+// measured in pixels 
+let velo
