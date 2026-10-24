@@ -8,7 +8,8 @@ let isGround = false;
 
 // setting up moving spikes
 let spikesX = []; 
-//  arr
+//  array because we are going to have multiple spikes
+
 
 function setup() {
     createCanvas(600, 400);
