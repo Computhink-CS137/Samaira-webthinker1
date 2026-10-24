@@ -69,7 +69,7 @@ function draw () {
         spikesX[i] -= spikeSpeed;
         // spikeX = variable, i cant be more than len. of variable
 
-        // check 
+        // check when spikes go past the 
     }
 
 }
