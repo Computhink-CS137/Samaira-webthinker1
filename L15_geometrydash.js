@@ -12,5 +12,5 @@ function setup() {
     playerY = height - playerSize;
     // height is the height of the cnavas, which is at the bottem in coding
     // so you minus player size, becuase hitbox top left corner
-    // 
+    // that way 
 }
