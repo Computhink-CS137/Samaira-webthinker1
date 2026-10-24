@@ -64,9 +64,9 @@ function draw () {
 
     // draw spikes
     fill(255, 0, 0);
-    for (let i = 0; i < spikesHeight.length; i++) {
+    for (let i = 0; i < spikesX.length; i++) {
         // make spikes move to the left
-        spikesX[i]
+        spikesX[i] 
     }
 
 }
