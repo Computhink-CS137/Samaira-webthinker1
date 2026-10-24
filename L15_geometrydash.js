@@ -5,3 +5,7 @@ let playerSize = 30;
 // measured in pixels 
 let velocity = 0;
 let isGround = false;
+
+function setup() {
+    
+}
