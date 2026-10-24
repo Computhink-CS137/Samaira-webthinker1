@@ -31,7 +31,7 @@ function draw () {
         // set player back to ground
         isGrounded = true;
         velocity = 0;
-        // 
+        // player is on ground, don't need to 
     } else {
         isGrounded = false;
     }
