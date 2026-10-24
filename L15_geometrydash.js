@@ -92,7 +92,8 @@ function draw () {
                 // 
                 playerX < spikes[i] + spikesWidth &&
                 playerY + playerSize > height - spikesHeight
-                // checking if players
+                // checking if players Yposition falls 
+                
             ) {
                 gameOver = true;
             }
