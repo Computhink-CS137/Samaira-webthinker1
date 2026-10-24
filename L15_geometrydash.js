@@ -80,7 +80,7 @@ function draw () {
             // come on screen at random times, because speed is constant
             // #all the values in the array are positions of spikes
         }
-         // draw physical spikes(triangles)
+          // draw physical spikes(triangles)
     triangle(spikesX[i], spikesHeight, spikesX[i] + spikesWidth / 2, height - spikesHeight, spikesX[i] - spikeWidth, spikesHeight);
 
     }
