@@ -24,6 +24,7 @@ function setup() {
     // create spikes
     for (let i = 0; i < 3; i++) {
         spikesX.push(width + i * 300);
+        // push means add an item into the ar
     }
 }
 
