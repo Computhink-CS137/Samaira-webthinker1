@@ -40,7 +40,7 @@ function draw () {
     Rect(playerX, playerY, playerSize, playerSize);
 
     function keyPressed () {
-        // jump 
+        // jump when space key is pressed 
         if (key === " " && isGrounded === true) {
             
         }
