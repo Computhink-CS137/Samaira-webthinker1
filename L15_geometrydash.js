@@ -92,7 +92,7 @@ function draw () {
                 playerX < spikes[i] + spikesWidth &&
                 playerY + playerSize > height - spikesHeight
             ) {
-                
+                gameOver = true;
             }
         }
     
