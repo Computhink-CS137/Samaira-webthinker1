@@ -15,4 +15,7 @@ function setup() {
     // that way your sprite starts on the ground
 }
 
-function draw ()
+function draw () {
+    background(0);
+    
+}
