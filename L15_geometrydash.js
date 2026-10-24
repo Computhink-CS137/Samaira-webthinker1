@@ -28,7 +28,7 @@ function setup() {
         // in this case, we are adding width + i * 300
         // only 3 spikes max, because i can't be bigger than 3
         // width = width of canvas
-        // in array have values 600, 900, 
+        // in array have values 600, 900, 1200, 
     }
 }
 
