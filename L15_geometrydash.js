@@ -70,11 +70,11 @@ function draw () {
         // spikeX = variable, i cant be more than len. of variable
 
         // check when spikes go past the left side(out of screen)
-        if (spikeX[i] < -spikeWidth) {
+        if (spikesX[i] < -spikeWidth) {
             // -spikewidth ---> position = once the spike is out of 
             // screen on the left(0), then minus spikeWidth, 
             // so it is fully out of screen
-            spikeX[i] = width + random(100, 300);
+            spikesX[i] = width + random(100, 300);
             // spikeX[i]-(item in array) = position = width of canvas
             // + a random no. so it is further of screen, and it will 
             // come on screen at random times, because speed is constant
