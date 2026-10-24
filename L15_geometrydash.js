@@ -30,7 +30,7 @@ function draw () {
         playerY = height - playerSize;
         // set player back to ground
         isGrounded = true;
-        
+        velocity = 0;
     }
 
     // draw player(a rectangle) - (x, y, width, height)
