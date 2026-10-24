@@ -9,6 +9,7 @@ let isGround = false;
 // setting up moving spikes
 let spikesX = []; 
 //  array because we are going to have multiple spikes
+let spikesWidth = 20;
 
 
 function setup() {
