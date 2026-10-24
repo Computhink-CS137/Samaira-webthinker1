@@ -18,6 +18,7 @@ function setup() {
 function draw () {
     background(0);
 
+    // jump and gravity
     
 
     // draw player(a rectangle) - (x, y, width, height)
