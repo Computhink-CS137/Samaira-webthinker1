@@ -10,5 +10,6 @@ function setup() {
     createCanvas(600, 400);
     textAlign(CENTER, CENTER);
     playerY = height - playerSize;
-    // height is the height of the cnavas
+    // height is the height of the cnavas, which is at the bottem in coding
+    // 
 }
