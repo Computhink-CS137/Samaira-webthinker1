@@ -94,7 +94,8 @@ function draw () {
         // game is over
         fill(20, 255, 45);
         textSize(40);
-        text("game Over!", width / )
+        text("game Over!", width / 2, height / 2);
+        
 
     }  
 
