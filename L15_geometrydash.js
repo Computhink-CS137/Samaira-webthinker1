@@ -45,7 +45,8 @@ function draw () {
             // increasing velocity = gowing down, decreasing velocity(negatives)
             // = going up
             velocity = -12;
-            // you will go 12 pixels up, then velocity will
+            // you will go 12 pixels up every frame, then velocity will add 
+            // 
         }
     }
 
