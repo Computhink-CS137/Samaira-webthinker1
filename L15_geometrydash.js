@@ -63,7 +63,7 @@ function draw () {
     Rect(playerX, playerY, playerSize, playerSize);
 
     // draw spikes
-    
+    fill(255, 0, 0)
 
 }
 
