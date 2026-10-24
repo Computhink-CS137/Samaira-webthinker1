@@ -91,7 +91,7 @@ function draw () {
     
 
     }  else {
-        
+        // game over
     }  
 
 
