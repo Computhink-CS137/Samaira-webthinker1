@@ -40,6 +40,8 @@ function setup() {
 function draw () {
     background(0);
 
+    if(!game)
+
     // jump and gravity
     velocity += 0.8; 
     // gravity = 0.81, when use plus, that means going down, because 
