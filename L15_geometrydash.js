@@ -77,7 +77,8 @@ function draw () {
             spikeX[i] = width + random(100, 300);
             // spikeX[i]-(item in array) = position = width of canvas
             // + a random no. so it is further of screen, and it will 
-            // come on screen at random times, 
+            // come on screen at random times, because speed is constant
+            // 
         }
 
     }
