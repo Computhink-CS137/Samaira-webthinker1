@@ -42,7 +42,7 @@ function draw () {
     function keyPressed () {
         // jump when space key is pressed 
         if (key === " " && isGrounded === true) {
-            // 
+            // increasing velocity = gowing down, decreasing velocity()
         }
     }
 
