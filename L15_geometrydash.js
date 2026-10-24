@@ -40,7 +40,10 @@ function draw () {
     Rect(playerX, playerY, playerSize, playerSize);
 
     function keyPressed () {
-        
+        // jump 
+        if (key === " " && isGrounded === true) {
+            
+        }
     }
 
 }
