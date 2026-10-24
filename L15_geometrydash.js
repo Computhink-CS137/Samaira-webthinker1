@@ -29,7 +29,8 @@ function setup() {
         // only 3 spikes max, because i can't be bigger than 3
         // width = width of canvas
         // in array have values 600, 900, 1200, 
-        // they are off screen, but we are going to ma
+        // they are off screen, but we are going to move it left slowly
+        // the 
     }
 }
 
