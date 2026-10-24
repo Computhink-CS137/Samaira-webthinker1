@@ -22,7 +22,9 @@ function setup() {
     // that way your sprite starts on the ground
 
     // create spikes
-    
+    for (let i = 0; i < 3; i++) {
+        
+    }
 }
 
 function draw () {
