@@ -90,7 +90,9 @@ function draw () {
     
     
 
-    }    
+    }  else {
+        
+    }  
 
 
 }
