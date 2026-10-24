@@ -21,6 +21,8 @@ function draw () {
     // jump and gravity
     velocity += 0.8; 
     // gravity = o.81, when use plus, that means going down, because 
+    // 400 value, bottem of canvas
+    
 
     // draw player(a rectangle) - (x, y, width, height)
     Rect(playerX, playerY, playerSize, playerSize);
