@@ -95,7 +95,7 @@ function draw () {
                 // checking if players Yposition falls 
                 // ontop of spike(touch), player Y = Y pos. 
                 // &player size = player height,
-                // height 
+                // height - spikes height, = constant height of spikes 
             ) {
                 gameOver = true;
             }
