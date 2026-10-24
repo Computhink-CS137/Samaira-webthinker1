@@ -8,5 +8,5 @@ let isGround = false;
 
 function setup() {
     createCanvas(600, 400);
-    
+    textAlign 
 }
