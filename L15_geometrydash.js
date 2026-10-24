@@ -65,7 +65,7 @@ function draw () {
     // draw spikes
     fill(255, 0, 0);
     for (let i = 0; i < spikesHeight.length; i++) {
-        
+        // make spikes 
     }
 
 }
