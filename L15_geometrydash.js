@@ -85,6 +85,8 @@ function draw () {
             // draw physical spikes(triangles)
             fill(0, 255, 0)
             triangle(spikesX[i], height, spikesX[i] + spikesWidth / 2, height - spikesHeight, spikesX[i] + spikesWidth, height);
+        
+        
         }
     
     
