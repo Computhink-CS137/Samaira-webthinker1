@@ -92,7 +92,8 @@ function draw () {
 
     }  else {
         // game is over
-        fill()
+        fill(255, 255, 0);
+        
     }  
 
 
