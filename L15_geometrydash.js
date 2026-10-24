@@ -89,7 +89,7 @@ function draw () {
             // collisions
             if (
                 playerX + playerSize > spikesX[i] &&
-                // player X pos. plus 
+                // player X pos. plus width so right,  
                 playerX < spikesX[i] + spikesWidth &&
                 playerY + playerSize > height - spikesHeight
                 // checking if players Yposition falls 
