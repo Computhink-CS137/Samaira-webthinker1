@@ -62,6 +62,7 @@ function draw () {
     // draw player(a rectangle) - (x, y, width, height)
     Rect(playerX, playerY, playerSize, playerSize);
 
+    // draw spikes
     
 
 }
