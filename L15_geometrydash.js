@@ -48,7 +48,7 @@ function draw () {
             // you will go 12 pixels up every frame, then velocity will add 
             // 0.8 to the Y value from the top of the function, 
             // the peak point when it starts to fall is when it turns from
-            // negatice to possitive, 
+            // negative to positive, 
         }
     }
 
