@@ -25,7 +25,9 @@ function draw () {
     playerY += velocity;
 
     // jump
-    if (playerY >= height - playerSize)
+    if (playerY >= height - playerSize) {
+        // 
+    }
 
     // draw player(a rectangle) - (x, y, width, height)
     Rect(playerX, playerY, playerSize, playerSize);
