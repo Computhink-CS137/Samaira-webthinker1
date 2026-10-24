@@ -76,7 +76,7 @@ function draw () {
             // so it is fully out of screen
             spikeX[i] = width + random(100, 300);
             // spikeX[i]-(item in array) = position = width of canvas
-            
+            // + 
         }
 
     }
