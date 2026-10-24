@@ -92,9 +92,9 @@ function draw () {
 
     }  else {
         // game is over
-        fill(20, 255, 45);
+        fill( 200, 255, 45);
         textSize(40);
-        text("game Over!", width / 2, height / 2);
+        text("Game Over!", width / 2, height / 2);
         // display text center of screen
 
     }  
