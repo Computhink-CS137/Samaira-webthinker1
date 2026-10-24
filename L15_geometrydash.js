@@ -6,7 +6,8 @@ let playerSize = 30;
 let velocity = 0;
 let isGround = false;
 
-// 
+// setting up moving spikes
+let spikesX =
 
 function setup() {
     createCanvas(600, 400);
