@@ -83,6 +83,8 @@ function draw () {
 
     }
 
+    // draw p
+
 }
 
 function keyPressed () {
