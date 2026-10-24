@@ -93,6 +93,7 @@ function draw () {
     }  else {
         // game is over
         fill(20, 255, 45);
+        textSize(40);
         
 
     }  
