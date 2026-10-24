@@ -24,7 +24,8 @@ function draw () {
     // 400 value, bottem of canvas
     playerY += velocity;
 
-    
+    // jump
+    if (playerY >= height - playerSize)
 
     // draw player(a rectangle) - (x, y, width, height)
     Rect(playerX, playerY, playerSize, playerSize);
