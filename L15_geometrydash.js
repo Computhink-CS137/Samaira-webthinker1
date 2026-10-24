@@ -91,6 +91,7 @@ function draw () {
                 playerX + playerSize > spikesX[i] &&
                 // player X pos. plus width so right, is greater than spikes X pos., to the right of the spike 
                 playerX < spikesX[i] + spikesWidth &&
+                // players 
                 playerY + playerSize > height - spikesHeight
                 // checking if players Yposition falls 
                 // ontop of spike(touch), player Y = Y pos. 
