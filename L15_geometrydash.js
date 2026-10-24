@@ -89,8 +89,10 @@ function draw () {
             // collisions
             if (
                 playerX + playerSize > spikesX[i] &&
+                // 
                 playerX < spikes[i] + spikesWidth &&
                 playerY + playerSize > height - spikesHeight
+                // 
             ) {
                 gameOver = true;
             }
