@@ -29,7 +29,8 @@ function draw () {
         // prevent player from falling through ground, 
         playerY = height - playerSize;
         // set player back to ground
-        is
+        isGrounded = true;
+        
     }
 
     // draw player(a rectangle) - (x, y, width, height)
