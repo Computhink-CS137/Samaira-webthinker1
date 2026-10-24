@@ -19,7 +19,8 @@ function draw () {
     background(0);
 
     // jump and gravity
-    velocity += 0
+    velocity += 0.8; 
+    // gravity = o.81, 
 
     // draw player(a rectangle) - (x, y, width, height)
     Rect(playerX, playerY, playerSize, playerSize);
