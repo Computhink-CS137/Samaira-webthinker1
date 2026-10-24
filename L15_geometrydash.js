@@ -30,7 +30,7 @@ function setup() {
         // width = width of canvas
         // in array have values 600, 900, 1200, 
         // they are off screen, but we are going to move it left slowly
-        // the 3 spikes will rotate in and out.
+        // the 3 spikes will rotate in and out, but can go random position
     }
 }
 
